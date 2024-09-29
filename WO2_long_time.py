@@ -213,8 +213,8 @@ def edge_prob():
 prob_edge_average = []
 for i in range(0, 10):
     prob_edge_average.append(edge_prob())
-    plt.plot(t_A, prob_edge_average[i], '-o')
-    plt.show()
+    #plt.plot(t_A, prob_edge_average[i], '-o')
+    #plt.show()
 prob_edge_average = np.array(prob_edge_average) 
 average = np.mean(prob_edge_average, axis = 0)
 #plt.plot(t_H, average)
