@@ -170,8 +170,7 @@ def U(n, Lx, T, ky,noise):
     (E3,V3)=np.linalg.eigh(H3)
 
 
-    U_m = (V3 @ np.diag(np.exp(-1j*E3*(T*(1 + noise[0][0])/3))) @ V3.conj().T) @ (V2 @ np.diag(np.exp(-1j*E2*(T*(1 + noise[0][1])/3))) @ V2.conj().T) @ (V1 @ np.diag( np.exp(-1j*E1*(T*(1 + noise[0][2])/3))) @ V1.conj().T)
-    #fix the loop such that the ky must be same.
+    U_m = (V3 @ np.diag(np.exp(-1j*E3*T/3)) @ V3.conj().T) @ (V2 @ np.diag(np.exp(-1j*E2*T/3)) @ V2.conj().T) @ (V1 @ np.diag(np.exp(-1j*E1*T/3)) @ V1.conj().T)
     return U_m
 
 def Prob_H():
