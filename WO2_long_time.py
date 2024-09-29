@@ -85,7 +85,7 @@ def HC(n, Lx):
 
     return HC
 
-    def adjoint(psi):
+def adjoint(psi):
     return psi.conjugate().transpose()
 def psi_to_rho(psi):
     return numpy.outer(psi,psi.conjugate())
