@@ -143,7 +143,7 @@ Lx = 4*n        # Number of lattice sites along the x direction
 Ly = 52
 J = 1       # Hopping coefficient 
 Jprime =0.10        # Hopping coefficent 
-m = 1600      # Multiples of T
+m = 10      # Multiples of T
 W = 0.2     # Noise strength
 # Variables for anomalous 
 T_A  = 3*np.pi/2         # Driving period 
