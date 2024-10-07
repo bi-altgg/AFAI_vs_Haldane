@@ -1,0 +1,130 @@
+  File "WO2_long_time.py", line 173
+  File "WO2_long_time.py", line 173
+    U_m = (V3 @ np.diag(np.exp(-1j*E3*(T*(1 + noise[0][0])/3))) @ V3.conj().T) @ (V2 @ np.diag(np.exp(-1j*E2*(T*(1 + noise[0][1])/3))) @ V2.conj().T) @ (V1 @ np.diag(np.exp(-1j*E1*(T*(1 + noise[0][2])/3))) @ V1.conj().T)
+              ^
+  File "WO2_long_time.py", line 173
+    U_m = (V3 @ np.diag(np.exp(-1j*E3*(T*(1 + noise[0][0])/3))) @ V3.conj().T) @ (V2 @ np.diag(np.exp(-1j*E2*(T*(1 + noise[0][1])/3))) @ V2.conj().T) @ (V1 @ np.diag(np.exp(-1j*E1*(T*(1 + noise[0][2])/3))) @ V1.conj().T)
+              ^
+SyntaxError: invalid syntax
+  File "WO2_long_time.py", line 173
+    U_m = (V3 @ np.diag(np.exp(-1j*E3*(T*(1 + noise[0][0])/3))) @ V3.conj().T) @ (V2 @ np.diag(np.exp(-1j*E2*(T*(1 + noise[0][1])/3))) @ V2.conj().T) @ (V1 @ np.diag(np.exp(-1j*E1*(T*(1 + noise[0][2])/3))) @ V1.conj().T)
+              ^
+SyntaxError: invalid syntax
+SyntaxError: invalid syntax
+  File "WO2_long_time.py", line 173
+    U_m = (V3 @ np.diag(np.exp(-1j*E3*(T*(1 + noise[0][0])/3))) @ V3.conj().T) @ (V2 @ np.diag(np.exp(-1j*E2*(T*(1 + noise[0][1])/3))) @ V2.conj().T) @ (V1 @ np.diag(np.exp(-1j*E1*(T*(1 + noise[0][2])/3))) @ V1.conj().T)
+              ^
+SyntaxError: invalid syntax
+  File "WO2_long_time.py", line 173
+    U_m = (V3 @ np.diag(np.exp(-1j*E3*(T*(1 + noise[0][0])/3))) @ V3.conj().T) @ (V2 @ np.diag(np.exp(-1j*E2*(T*(1 + noise[0][1])/3))) @ V2.conj().T) @ (V1 @ np.diag(np.exp(-1j*E1*(T*(1 + noise[0][2])/3))) @ V1.conj().T)
+              ^
+SyntaxError: invalid syntax
+  File "WO2_long_time.py", line 173
+    U_m = (V3 @ np.diag(np.exp(-1j*E3*(T*(1 + noise[0][0])/3))) @ V3.conj().T) @ (V2 @ np.diag(np.exp(-1j*E2*(T*(1 + noise[0][1])/3))) @ V2.conj().T) @ (V1 @ np.diag(np.exp(-1j*E1*(T*(1 + noise[0][2])/3))) @ V1.conj().T)
+              ^
+SyntaxError: invalid syntax
+  File "WO2_long_time.py", line 173
+    U_m = (V3 @ np.diag(np.exp(-1j*E3*(T*(1 + noise[0][0])/3))) @ V3.conj().T) @ (V2 @ np.diag(np.exp(-1j*E2*(T*(1 + noise[0][1])/3))) @ V2.conj().T) @ (V1 @ np.diag(np.exp(-1j*E1*(T*(1 + noise[0][2])/3))) @ V1.conj().T)
+              ^
+SyntaxError: invalid syntax
+  File "WO2_long_time.py", line 173
+    U_m = (V3 @ np.diag(np.exp(-1j*E3*(T*(1 + noise[0][0])/3))) @ V3.conj().T) @ (V2 @ np.diag(np.exp(-1j*E2*(T*(1 + noise[0][1])/3))) @ V2.conj().T) @ (V1 @ np.diag(np.exp(-1j*E1*(T*(1 + noise[0][2])/3))) @ V1.conj().T)
+              ^
+SyntaxError: invalid syntax
+  File "WO2_long_time.py", line 173
+    U_m = (V3 @ np.diag(np.exp(-1j*E3*(T*(1 + noise[0][0])/3))) @ V3.conj().T) @ (V2 @ np.diag(np.exp(-1j*E2*(T*(1 + noise[0][1])/3))) @ V2.conj().T) @ (V1 @ np.diag(np.exp(-1j*E1*(T*(1 + noise[0][2])/3))) @ V1.conj().T)
+              ^
+SyntaxError: invalid syntax
+    U_m = (V3 @ np.diag(np.exp(-1j*E3*(T*(1 + noise[0][0])/3))) @ V3.conj().T) @ (V2 @ np.diag(np.exp(-1j*E2*(T*(1 + noise[0][1])/3))) @ V2.conj().T) @ (V1 @ np.diag(np.exp(-1j*E1*(T*(1 + noise[0][2])/3))) @ V1.conj().T)
+  File "WO2_long_time.py", line 173
+    U_m = (V3 @ np.diag(np.exp(-1j*E3*(T*(1 + noise[0][0])/3))) @ V3.conj().T) @ (V2 @ np.diag(np.exp(-1j*E2*(T*(1 + noise[0][1])/3))) @ V2.conj().T) @ (V1 @ np.diag(np.exp(-1j*E1*(T*(1 + noise[0][2])/3))) @ V1.conj().T)
+              ^
+SyntaxError: invalid syntax
+  File "WO2_long_time.py", line 173
+    U_m = (V3 @ np.diag(np.exp(-1j*E3*(T*(1 + noise[0][0])/3))) @ V3.conj().T) @ (V2 @ np.diag(np.exp(-1j*E2*(T*(1 + noise[0][1])/3))) @ V2.conj().T) @ (V1 @ np.diag(np.exp(-1j*E1*(T*(1 + noise[0][2])/3))) @ V1.conj().T)
+              ^
+SyntaxError: invalid syntax
+              ^
+  File "WO2_long_time.py", line 173
+    U_m = (V3 @ np.diag(np.exp(-1j*E3*(T*(1 + noise[0][0])/3))) @ V3.conj().T) @ (V2 @ np.diag(np.exp(-1j*E2*(T*(1 + noise[0][1])/3))) @ V2.conj().T) @ (V1 @ np.diag(np.exp(-1j*E1*(T*(1 + noise[0][2])/3))) @ V1.conj().T)
+              ^
+  File "WO2_long_time.py", line 173
+    U_m = (V3 @ np.diag(np.exp(-1j*E3*(T*(1 + noise[0][0])/3))) @ V3.conj().T) @ (V2 @ np.diag(np.exp(-1j*E2*(T*(1 + noise[0][1])/3))) @ V2.conj().T) @ (V1 @ np.diag(np.exp(-1j*E1*(T*(1 + noise[0][2])/3))) @ V1.conj().T)
+SyntaxError: invalid syntax
+              ^
+SyntaxError: invalid syntax
+  File "WO2_long_time.py", line 173
+    U_m = (V3 @ np.diag(np.exp(-1j*E3*(T*(1 + noise[0][0])/3))) @ V3.conj().T) @ (V2 @ np.diag(np.exp(-1j*E2*(T*(1 + noise[0][1])/3))) @ V2.conj().T) @ (V1 @ np.diag(np.exp(-1j*E1*(T*(1 + noise[0][2])/3))) @ V1.conj().T)
+              ^
+SyntaxError: invalid syntax
+  File "WO2_long_time.py", line 173
+    U_m = (V3 @ np.diag(np.exp(-1j*E3*(T*(1 + noise[0][0])/3))) @ V3.conj().T) @ (V2 @ np.diag(np.exp(-1j*E2*(T*(1 + noise[0][1])/3))) @ V2.conj().T) @ (V1 @ np.diag(np.exp(-1j*E1*(T*(1 + noise[0][2])/3))) @ V1.conj().T)
+              ^
+SyntaxError: invalid syntax
+  File "WO2_long_time.py", line 173
+    U_m = (V3 @ np.diag(np.exp(-1j*E3*(T*(1 + noise[0][0])/3))) @ V3.conj().T) @ (V2 @ np.diag(np.exp(-1j*E2*(T*(1 + noise[0][1])/3))) @ V2.conj().T) @ (V1 @ np.diag(np.exp(-1j*E1*(T*(1 + noise[0][2])/3))) @ V1.conj().T)
+              ^
+SyntaxError: invalid syntax
+SyntaxError: invalid syntax
+  File "WO2_long_time.py", line 173
+    U_m = (V3 @ np.diag(np.exp(-1j*E3*(T*(1 + noise[0][0])/3))) @ V3.conj().T) @ (V2 @ np.diag(np.exp(-1j*E2*(T*(1 + noise[0][1])/3))) @ V2.conj().T) @ (V1 @ np.diag(np.exp(-1j*E1*(T*(1 + noise[0][2])/3))) @ V1.conj().T)
+              ^
+SyntaxError: invalid syntax
+  File "WO2_long_time.py", line 173
+    U_m = (V3 @ np.diag(np.exp(-1j*E3*(T*(1 + noise[0][0])/3))) @ V3.conj().T) @ (V2 @ np.diag(np.exp(-1j*E2*(T*(1 + noise[0][1])/3))) @ V2.conj().T) @ (V1 @ np.diag(np.exp(-1j*E1*(T*(1 + noise[0][2])/3))) @ V1.conj().T)
+              ^
+SyntaxError: invalid syntax
+  File "WO2_long_time.py", line 173
+    U_m = (V3 @ np.diag(np.exp(-1j*E3*(T*(1 + noise[0][0])/3))) @ V3.conj().T) @ (V2 @ np.diag(np.exp(-1j*E2*(T*(1 + noise[0][1])/3))) @ V2.conj().T) @ (V1 @ np.diag(np.exp(-1j*E1*(T*(1 + noise[0][2])/3))) @ V1.conj().T)
+              ^
+SyntaxError: invalid syntax
+  File "WO2_long_time.py", line 173
+    U_m = (V3 @ np.diag(np.exp(-1j*E3*(T*(1 + noise[0][0])/3))) @ V3.conj().T) @ (V2 @ np.diag(np.exp(-1j*E2*(T*(1 + noise[0][1])/3))) @ V2.conj().T) @ (V1 @ np.diag(np.exp(-1j*E1*(T*(1 + noise[0][2])/3))) @ V1.conj().T)
+              ^
+SyntaxError: invalid syntax
+  File "WO2_long_time.py", line 173
+    U_m = (V3 @ np.diag(np.exp(-1j*E3*(T*(1 + noise[0][0])/3))) @ V3.conj().T) @ (V2 @ np.diag(np.exp(-1j*E2*(T*(1 + noise[0][1])/3))) @ V2.conj().T) @ (V1 @ np.diag(np.exp(-1j*E1*(T*(1 + noise[0][2])/3))) @ V1.conj().T)
+              ^
+SyntaxError: invalid syntax
+  File "WO2_long_time.py", line 173
+    U_m = (V3 @ np.diag(np.exp(-1j*E3*(T*(1 + noise[0][0])/3))) @ V3.conj().T) @ (V2 @ np.diag(np.exp(-1j*E2*(T*(1 + noise[0][1])/3))) @ V2.conj().T) @ (V1 @ np.diag(np.exp(-1j*E1*(T*(1 + noise[0][2])/3))) @ V1.conj().T)
+  File "WO2_long_time.py", line 173
+    U_m = (V3 @ np.diag(np.exp(-1j*E3*(T*(1 + noise[0][0])/3))) @ V3.conj().T) @ (V2 @ np.diag(np.exp(-1j*E2*(T*(1 + noise[0][1])/3))) @ V2.conj().T) @ (V1 @ np.diag(np.exp(-1j*E1*(T*(1 + noise[0][2])/3))) @ V1.conj().T)
+              ^
+              ^
+SyntaxError: invalid syntax
+SyntaxError: invalid syntax
+  File "WO2_long_time.py", line 173
+    U_m = (V3 @ np.diag(np.exp(-1j*E3*(T*(1 + noise[0][0])/3))) @ V3.conj().T) @ (V2 @ np.diag(np.exp(-1j*E2*(T*(1 + noise[0][1])/3))) @ V2.conj().T) @ (V1 @ np.diag(np.exp(-1j*E1*(T*(1 + noise[0][2])/3))) @ V1.conj().T)
+              ^
+SyntaxError: invalid syntax
+  File "WO2_long_time.py", line 173
+    U_m = (V3 @ np.diag(np.exp(-1j*E3*(T*(1 + noise[0][0])/3))) @ V3.conj().T) @ (V2 @ np.diag(np.exp(-1j*E2*(T*(1 + noise[0][1])/3))) @ V2.conj().T) @ (V1 @ np.diag(np.exp(-1j*E1*(T*(1 + noise[0][2])/3))) @ V1.conj().T)
+              ^
+SyntaxError: invalid syntax
+  File "WO2_long_time.py", line 173
+    U_m = (V3 @ np.diag(np.exp(-1j*E3*(T*(1 + noise[0][0])/3))) @ V3.conj().T) @ (V2 @ np.diag(np.exp(-1j*E2*(T*(1 + noise[0][1])/3))) @ V2.conj().T) @ (V1 @ np.diag(np.exp(-1j*E1*(T*(1 + noise[0][2])/3))) @ V1.conj().T)
+              ^
+SyntaxError: invalid syntax
+  File "WO2_long_time.py", line 173
+    U_m = (V3 @ np.diag(np.exp(-1j*E3*(T*(1 + noise[0][0])/3))) @ V3.conj().T) @ (V2 @ np.diag(np.exp(-1j*E2*(T*(1 + noise[0][1])/3))) @ V2.conj().T) @ (V1 @ np.diag(np.exp(-1j*E1*(T*(1 + noise[0][2])/3))) @ V1.conj().T)
+              ^
+SyntaxError: invalid syntax
+  File "WO2_long_time.py", line 173
+    U_m = (V3 @ np.diag(np.exp(-1j*E3*(T*(1 + noise[0][0])/3))) @ V3.conj().T) @ (V2 @ np.diag(np.exp(-1j*E2*(T*(1 + noise[0][1])/3))) @ V2.conj().T) @ (V1 @ np.diag(np.exp(-1j*E1*(T*(1 + noise[0][2])/3))) @ V1.conj().T)
+              ^
+SyntaxError: invalid syntax
+  File "WO2_long_time.py", line 173
+    U_m = (V3 @ np.diag(np.exp(-1j*E3*(T*(1 + noise[0][0])/3))) @ V3.conj().T) @ (V2 @ np.diag(np.exp(-1j*E2*(T*(1 + noise[0][1])/3))) @ V2.conj().T) @ (V1 @ np.diag(np.exp(-1j*E1*(T*(1 + noise[0][2])/3))) @ V1.conj().T)
+              ^
+  File "WO2_long_time.py", line 173
+    U_m = (V3 @ np.diag(np.exp(-1j*E3*(T*(1 + noise[0][0])/3))) @ V3.conj().T) @ (V2 @ np.diag(np.exp(-1j*E2*(T*(1 + noise[0][1])/3))) @ V2.conj().T) @ (V1 @ np.diag(np.exp(-1j*E1*(T*(1 + noise[0][2])/3))) @ V1.conj().T)
+SyntaxError: invalid syntax
+              ^
+SyntaxError: invalid syntax
+  File "WO2_long_time.py", line 173
+    U_m = (V3 @ np.diag(np.exp(-1j*E3*(T*(1 + noise[0][0])/3))) @ V3.conj().T) @ (V2 @ np.diag(np.exp(-1j*E2*(T*(1 + noise[0][1])/3))) @ V2.conj().T) @ (V1 @ np.diag(np.exp(-1j*E1*(T*(1 + noise[0][2])/3))) @ V1.conj().T)
+              ^
+SyntaxError: invalid syntax
+srun: error: compute-7-2-27: tasks 0-15: Exited with exit code 1
+srun: error: compute-7-2-31: tasks 16-31: Exited with exit code 1

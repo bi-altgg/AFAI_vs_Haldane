@@ -1,0 +1,5 @@
+run2_0.qsub: line 22: ./WO2_long_time.py: Permission denied
+
+real	0m0.001s
+user	0m0.001s
+sys	0m0.000s

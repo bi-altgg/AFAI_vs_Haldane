@@ -1,0 +1,131 @@
+[prun] Master compute host = compute-7-2-27
+[prun] Resource manager = slurm
+[prun] Launch cmd = mpiexec.hydra -bootstrap slurm python WO2_long_time.py (family=mvapich2)
+  File "WO2_long_time.py", line 89
+    return psi.conjugate().transpose()
+         ^
+IndentationError: expected an indented block
+  File "WO2_long_time.py", line 89
+    return psi.conjugate().transpose()
+         ^
+IndentationError: expected an indented block
+  File "WO2_long_time.py", line 89
+    return psi.conjugate().transpose()
+         ^
+IndentationError: expected an indented block
+  File "WO2_long_time.py", line 89
+    return psi.conjugate().transpose()
+         ^
+IndentationError: expected an indented block
+  File "WO2_long_time.py", line 89
+    return psi.conjugate().transpose()
+         ^
+IndentationError: expected an indented block
+  File "WO2_long_time.py", line 89
+    return psi.conjugate().transpose()
+         ^
+IndentationError: expected an indented block
+  File "WO2_long_time.py", line 89
+    return psi.conjugate().transpose()
+         ^
+IndentationError: expected an indented block
+  File "  File "WO2_long_time.py", line 89
+    return psi.conjugate().transpose()
+         ^
+IndentationError: expected an indented block
+WO2_long_time.py", line 89
+    return psi.conjugate().transpose()
+         ^
+IndentationError: expected an indented block
+  File "WO2_long_time.py", line 89
+    return psi.conjugate().transpose()
+         ^
+IndentationError: expected an indented block
+  File "WO2_long_time.py", line 89
+    return psi.conjugate().transpose()
+         ^
+IndentationError: expected an indented block
+  File "WO2_long_time.py", line 89
+    return psi.conjugate().transpose()
+         ^
+IndentationError: expected an indented block
+  File "WO2_long_time.py", line 89
+    return psi.conjugate().transpose()
+         ^
+IndentationError: expected an indented block
+  File "WO2_long_time.py", line 89
+    return psi.conjugate().transpose()
+         ^
+IndentationError: expected an indented block
+  File "WO2_long_time.py", line 89
+    return psi.conjugate().transpose()
+         ^
+IndentationError: expected an indented block
+  File "WO2_long_time.py", line 89
+    return psi.conjugate().transpose()
+         ^
+IndentationError: expected an indented block
+  File "WO2_long_time.py", line 89
+    return psi.conjugate().transpose()
+         ^
+IndentationError: expected an indented block
+  File "WO2_long_time.py", line 89
+    return psi.conjugate().transpose()
+         ^
+IndentationError: expected an indented block
+  File "WO2_long_time.py", line 89
+  File "WO2_long_time.py", line 89
+    return psi.conjugate().transpose()
+      File "WO2_long_time.py", line 89
+    return psi.conjugate().transpose()
+        return psi.conjugate().transpose()
+         ^
+IndentationError: expected an indented block
+     ^
+IndentationError: expected an indented block
+  File "WO2_long_time.py", line 89
+    return psi.conjugate().transpose()
+         ^
+IndentationError:   File "WO2_long_time.py", line      ^
+IndentationError: expected an indented block
+expected an indented block
+  File "WO2_long_time.py", line 89
+    return psi.conjugate().transpose()
+         ^
+IndentationError: expected an indented block
+  File "WO2_long_time.py", line 89
+  File "WO2_long_time.py", line 89
+    return psi.conjugate().transpose()
+         ^
+IndentationError: expected an indented block
+89
+    return psi.conjugate().transpose()
+         ^
+IndentationError: expected an indented block
+    return psi.conjugate().transpose()
+         ^
+IndentationError: expected an indented block
+  File "WO2_long_time.py", line 89
+    return psi.conjugate().transpose()
+         ^
+IndentationError: expected an indented block
+  File "WO2_long_time.py", line 89
+    return psi.conjugate().transpose()
+         ^
+IndentationError: expected an indented block
+  File "WO2_long_time.py", line 89
+    return psi.conjugate().transpose()
+         ^
+IndentationError: expected an indented block
+  File "WO2_long_time.py", line 89
+    return psi.conjugate().transpose()
+         ^
+IndentationError: expected an indented block
+  File "WO2_long_time.py", line 89
+    return psi.conjugate().transpose()
+         ^
+IndentationError: expected an indented block
+  File "WO2_long_time.py", line 89
+    return psi.conjugate().transpose()
+         ^
+IndentationError: expected an indented block

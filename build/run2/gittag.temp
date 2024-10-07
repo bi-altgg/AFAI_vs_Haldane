@@ -1,0 +1,107 @@
+commit cf0f18493ada5c1f4440c32b22ae08f232dda396
+Merge: d8310f7 5955bb7
+Author: Bishal Ghosh <bkg230000@ganymede.utdallas.edu>
+Date:   Thu Oct 3 13:30:26 2024 -0500
+
+    Merge branch 'main' of https://github.com/bi-altgg/AFAI_vs_Haldane into main
+    updating folder:wq
+
+commit 5955bb7d3e399480bed19da39bfd44e81086d6ae
+Author: Bishal Ghosh <80319893+bi-altgg@users.noreply.github.com>
+Date:   Thu Oct 3 13:26:04 2024 -0500
+
+    Add files via upload
+
+commit d8310f7bb0403183c61cdc215554d4ec3ba5bc73
+Author: Bishal Ghosh <bkg230000@ganymede.utdallas.edu>
+Date:   Tue Oct 1 14:22:42 2024 -0500
+
+    Commit before run run2
+
+commit 9ee0594256a7719eb08169d97404feccbf98e5de
+Author: Bishal Ghosh <80319893+bi-altgg@users.noreply.github.com>
+Date:   Sun Sep 29 18:55:35 2024 -0500
+
+    Update WO2_long_time.py
+
+commit 86f4ded7cdd6671c9248a5747d20f35f84a1800b
+Author: Bishal Ghosh <80319893+bi-altgg@users.noreply.github.com>
+Date:   Sun Sep 29 18:40:49 2024 -0500
+
+    Update WO2_long_time.py
+
+commit fcd2de5aa440a54f9f1b16a1fb4d71973808d0d7
+Author: Bishal Ghosh <80319893+bi-altgg@users.noreply.github.com>
+Date:   Sun Sep 29 18:35:50 2024 -0500
+
+    Update WO2_long_time.py
+
+commit 1782aa755158fd56c9558b769f39d9c735104e7e
+Author: Bishal Ghosh <80319893+bi-altgg@users.noreply.github.com>
+Date:   Sun Sep 29 16:34:33 2024 -0500
+
+    Update WO2_long_time.py
+
+commit 561c28a3e7edd4028edd5c623244667ce377f917
+Author: Bishal Ghosh <80319893+bi-altgg@users.noreply.github.com>
+Date:   Sun Sep 29 16:27:51 2024 -0500
+
+    Update run_2.sh
+
+commit e8383ab69f751717c9fcf53ee75b358482c779a0
+Author: Bishal Ghosh <80319893+bi-altgg@users.noreply.github.com>
+Date:   Sun Sep 29 16:13:52 2024 -0500
+
+    Update WO2_long_time.py
+
+commit 3671a49728be4754a6a6283b50b668d1ba5ee597
+Author: Bishal Ghosh <80319893+bi-altgg@users.noreply.github.com>
+Date:   Sun Sep 29 16:11:09 2024 -0500
+
+    Update WO2_long_time.py
+
+commit 59d7e849e84778e4ef0cf2ded11d6873fc495fc1
+Author: Bishal Ghosh <80319893+bi-altgg@users.noreply.github.com>
+Date:   Sun Sep 29 16:06:10 2024 -0500
+
+    Update WO2_long_time.py
+
+commit 131f1e05693572f5897fe83ac39f761d12d849dd
+Author: Bishal Ghosh <80319893+bi-altgg@users.noreply.github.com>
+Date:   Sun Sep 29 15:59:04 2024 -0500
+
+    Add files via upload
+
+commit 5024ee7a5d67004ab598f73383eb734c2c78e30a
+Author: Bishal Ghosh <80319893+bi-altgg@users.noreply.github.com>
+Date:   Sun Sep 29 12:45:22 2024 -0500
+
+    Add files via upload
+
+commit c38300a169659c425e9ca17cfa232ae715d404c8
+Author: Bishal Ghosh <80319893+bi-altgg@users.noreply.github.com>
+Date:   Sun Sep 22 20:17:28 2024 -0500
+
+    Add files via upload
+    
+    code for long time scale of Haldane
+
+commit 184a55db4a0a0850e7c5edca693b4de1b59e97df
+Author: Bishal Ghosh <80319893+bi-altgg@users.noreply.github.com>
+Date:   Sun Sep 22 20:17:03 2024 -0500
+
+    Add files via upload
+    
+    code for long time scale of Haldane
+
+commit 534d225bd4d2ba60fa92623d7c34bfc34c417def
+Author: Bishal Ghosh <80319893+bi-altgg@users.noreply.github.com>
+Date:   Sun May 19 13:31:26 2024 +0530
+
+    slurm folder for W_02
+
+commit b321657da99273c9914e9343790a102cbf7a3d56
+Author: Bishal Ghosh <80319893+bi-altgg@users.noreply.github.com>
+Date:   Fri May 17 15:07:14 2024 +0530
+
+    Initial commit
