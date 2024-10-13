@@ -236,7 +236,7 @@ print(np.abs(np.transpose(eigenfunctionsA[99])[:][26]))
 # %%
 #plt.imshow(np.abs(eigenfunctionsA[99]))
 init_wave = np.transpose(eigenfunctionsA[99])[:][500]
-plt.plot(np.arange(52),np.abs(np.transpose(eigenfunctionsA[99])[:][500]), label = 'ky = 0')
+plt.plot(np.arange(1000),np.abs(np.transpose(eigenfunctionsA[99])[:][500]), label = 'ky = 0')
 plt.title(label = 'Edge state for ky ~ ${0}$ post evolution ' )
 plt.xlabel('$x$')
 plt.ylabel('Probability Density')
@@ -296,7 +296,7 @@ for i in range(10):
 #finale = time_evolv(init_wave)
 for j in range(10):
     for i in range(0,len(t_A)):
-        plt.plot(np.arange(52),np.abs(final[j][i]), label = 'ky = 0')
+        plt.plot(np.arange(1000),np.abs(final[j][i]), label = 'ky = 0')
     plt.show()
 
 # %%
