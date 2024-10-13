@@ -248,7 +248,7 @@ Lx = 4*n        # Number of lattice sites along the x direction
 Ly = 52
 J = 1       # Hopping coefficient 
 Jprime =0.10        # Hopping coefficent 
-m = 50      # Multiples of T
+m = 500      # Multiples of T
 noise_lst = np.linspace(0,0.4,10)
 
 np.save("noise_lst.npy", noise_lst)
@@ -384,8 +384,8 @@ plt.errorbar(np.arange(len(t_A)),average, yerr = err_bar)
 plt.savefig("LE_Ana.png", dpi=600)
 
 # %%
-np.savetxt("LE_Ana_00.txt",average)
-np.savetxt("LE_Ana_00_err.txt", err_bar)
+np.savetxt("LE_Ana_00_large.txt",average)
+np.savetxt("LE_Ana_00_large_err.txt", err_bar)
 
 # %%
 
