@@ -1,13 +1,13 @@
 bash run2_0.qsub
-echo "Fake run"
-echo "Fake run"
-echo "Fake run"
-echo "Fake run"
-echo "Fake run"
-echo "Fake run"
-echo "Fake run"
-echo "Fake run"
-echo "Fake run"
+bash run2_1.qsub
+bash run2_2.qsub
+bash run2_3.qsub
+bash run2_4.qsub
+bash run2_5.qsub
+bash run2_6.qsub
+bash run2_7.qsub
+bash run2_8.qsub
+bash run2_9.qsub
 echo "Fake run"
 echo "Fake run"
 echo "Fake run"

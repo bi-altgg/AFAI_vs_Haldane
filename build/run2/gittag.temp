@@ -1,3 +1,27 @@
+commit 4564d4244c57e0411bb73ca6acf591b31a8a3f9f
+Author: Bishal Ghosh <bkg230000@ganymede.utdallas.edu>
+Date:   Sat Oct 12 19:00:24 2024 -0500
+
+    Commit before run run2
+
+commit f9a023dd5053d19a8203665261b1e6f15f9d5464
+Author: Bishal Ghosh <80319893+bi-altgg@users.noreply.github.com>
+Date:   Sat Oct 12 18:48:01 2024 -0500
+
+    Update LE_ANa_long_time.py
+
+commit b336e6b5650d4743bcfb01633ac6cbcad7306fe6
+Author: Bishal Ghosh <80319893+bi-altgg@users.noreply.github.com>
+Date:   Sat Oct 12 18:39:34 2024 -0500
+
+    Update run2.template
+
+commit aa406fd33a1e8c3c2111b22c8321576874895e55
+Author: Bishal Ghosh <80319893+bi-altgg@users.noreply.github.com>
+Date:   Sat Oct 12 18:39:06 2024 -0500
+
+    Update run2_builder.py
+
 commit f9e20731b33dd17ee8b4237d60fbe5769c65fc35
 Author: Bishal Ghosh <bkg230000@ganymede.utdallas.edu>
 Date:   Mon Oct 7 18:16:33 2024 -0500
