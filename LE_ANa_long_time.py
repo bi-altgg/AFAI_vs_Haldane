@@ -301,7 +301,7 @@ for j in range(10):
 def lochsgmidt_echo(final_vector,initial_vecotr):
     final_vecto = final_vector/((np.linalg.norm(final_vector)))
     initial_vecot = initial_vecotr/((np.linalg.norm(initial_vecotr)))
-    rate = final_vecto@initial_vecot
+    rate = np.conjugate(final_vecto)@initial_vecot
     return np.abs(rate)
 
 # %%
