@@ -178,7 +178,7 @@ def eigu(U,tol=1e-9):
     return (U_1[inds],V_1[:,inds]) # = (U_d,V) s.t. U=V*U_d*V^\dagger
 
 # %%
-n =13   # Number of unit lattices 
+n =250   # Number of unit lattices 
 Lx = 4*n        # Number of lattice sites along the x direction
 Ly = 52        # Number of lattice sites along the y direction   
 J = 1       # Hopping coefficient 
@@ -235,15 +235,15 @@ print(np.abs(np.transpose(eigenfunctionsA[99])[:][26]))
 
 # %%
 #plt.imshow(np.abs(eigenfunctionsA[99]))
-init_wave = np.transpose(eigenfunctionsA[99])[:][49]
-plt.plot(np.arange(52),np.abs(np.transpose(eigenfunctionsA[99])[:][49]), label = 'ky = 0')
+init_wave = np.transpose(eigenfunctionsA[99])[:][500]
+plt.plot(np.arange(52),np.abs(np.transpose(eigenfunctionsA[99])[:][500]), label = 'ky = 0')
 plt.title(label = 'Edge state for ky ~ ${0}$ post evolution ' )
 plt.xlabel('$x$')
 plt.ylabel('Probability Density')
 plt.show()
 
 # %%
-n =13   # Number of unit lattices 
+n =250   # Number of unit lattices 
 Lx = 4*n        # Number of lattice sites along the x direction
 Ly = 52
 J = 1       # Hopping coefficient 
