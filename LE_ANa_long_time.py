@@ -183,7 +183,7 @@ Lx = 4*n        # Number of lattice sites along the x direction
 Ly = 52        # Number of lattice sites along the y direction   
 J = 1       # Hopping coefficient 
 Jprime =0.10      # Number of lattice sites along the y direction
-T_A  = 3*np.pi/6 
+T_A  = 3*np.pi/2 
 WNoiseinit = 0.0
 W = WNoiseinit
 omegaA = (2*np.pi)/T_A 
@@ -257,7 +257,7 @@ noise_index = int(sys.argv[1])
 W = noise_lst[noise_index]  # In kHz units.
 np.save("source_bias.npy", W)  # Noise strength
 # Variables for anomalous 
-T_A  = 3*np.pi/6         # Driving period 
+T_A  = 3*np.pi/2         # Driving period 
 t_A = np.arange(0 ,m*T_A, T_A)      # Mutlples of driving period for 
 omegaA = (2*np.pi)/T_A 
 
@@ -384,8 +384,8 @@ plt.errorbar(np.arange(len(t_A)),average, yerr = err_bar)
 plt.savefig("LE_Ana.png", dpi=600)
 
 # %%
-np.savetxt("LE_Hal_00_small.txt",average)
-np.savetxt("LE_Hal_00_small_err.txt", err_bar)
+np.savetxt("LE_Ana_00_small.txt",average)
+np.savetxt("LE_Ana_00_small_err.txt", err_bar)
 
 # %%
 
