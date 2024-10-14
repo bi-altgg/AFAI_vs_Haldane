@@ -178,12 +178,12 @@ def eigu(U,tol=1e-9):
     return (U_1[inds],V_1[:,inds]) # = (U_d,V) s.t. U=V*U_d*V^\dagger
 
 # %%
-n =250   # Number of unit lattices 
+n =13   # Number of unit lattices 
 Lx = 4*n        # Number of lattice sites along the x direction
 Ly = 52        # Number of lattice sites along the y direction   
 J = 1       # Hopping coefficient 
 Jprime =0.10      # Number of lattice sites along the y direction
-T_A  = 3*np.pi/2 
+T_A  = 3*np.pi/6 
 WNoiseinit = 0.0
 W = WNoiseinit
 omegaA = (2*np.pi)/T_A 
@@ -235,21 +235,21 @@ print(np.abs(np.transpose(eigenfunctionsA[99])[:][26]))
 
 # %%
 #plt.imshow(np.abs(eigenfunctionsA[99]))
-init_wave = np.transpose(eigenfunctionsA[99])[:][500]
-plt.plot(np.arange(1000),np.abs(np.transpose(eigenfunctionsA[99])[:][500]), label = 'ky = 0')
+init_wave = np.transpose(eigenfunctionsA[99])[:][26]
+plt.plot(np.arange(52),np.abs(np.transpose(eigenfunctionsA[99])[:][26]), label = 'ky = 0')
 plt.title(label = 'Edge state for ky ~ ${0}$ post evolution ' )
 plt.xlabel('$x$')
 plt.ylabel('Probability Density')
 plt.show()
 
 # %%
-n =250   # Number of unit lattices 
+n =52   # Number of unit lattices 
 Lx = 4*n        # Number of lattice sites along the x direction
 Ly = 52
 J = 1       # Hopping coefficient 
 Jprime =0.10        # Hopping coefficent 
-m = 500      # Multiples of T
-noise_lst = np.linspace(0,0.4,10)
+m = 50      # Multiples of T
+noise_lst = np.linspace(0,1.2,10)
 
 np.save("noise_lst.npy", noise_lst)
 noise_index = int(sys.argv[1])
@@ -257,7 +257,7 @@ noise_index = int(sys.argv[1])
 W = noise_lst[noise_index]  # In kHz units.
 np.save("source_bias.npy", W)  # Noise strength
 # Variables for anomalous 
-T_A  = 3*np.pi/2         # Driving period 
+T_A  = 3*np.pi/6         # Driving period 
 t_A = np.arange(0 ,m*T_A, T_A)      # Mutlples of driving period for 
 omegaA = (2*np.pi)/T_A 
 
@@ -296,7 +296,7 @@ for i in range(10):
 #finale = time_evolv(init_wave)
 for j in range(10):
     for i in range(0,len(t_A)):
-        plt.plot(np.arange(1000),np.abs(final[j][i]), label = 'ky = 0')
+        plt.plot(np.arange(52),np.abs(final[j][i]), label = 'ky = 0')
     plt.show()
 
 # %%
@@ -384,8 +384,8 @@ plt.errorbar(np.arange(len(t_A)),average, yerr = err_bar)
 plt.savefig("LE_Ana.png", dpi=600)
 
 # %%
-np.savetxt("LE_Ana_00_large.txt",average)
-np.savetxt("LE_Ana_00_large_err.txt", err_bar)
+np.savetxt("LE_Hal_00_small.txt",average)
+np.savetxt("LE_Hal_00_small_err.txt", err_bar)
 
 # %%
 
