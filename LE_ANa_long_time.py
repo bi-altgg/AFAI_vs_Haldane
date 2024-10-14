@@ -243,7 +243,7 @@ plt.ylabel('Probability Density')
 plt.show()
 
 # %%
-n =52   # Number of unit lattices 
+n =13   # Number of unit lattices 
 Lx = 4*n        # Number of lattice sites along the x direction
 Ly = 52
 J = 1       # Hopping coefficient 
