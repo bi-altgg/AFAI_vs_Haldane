@@ -249,7 +249,7 @@ Ly = 52
 J = 1       # Hopping coefficient 
 Jprime =0.10        # Hopping coefficent 
 m = 50      # Multiples of T
-noise_lst = np.linspace(0,1.2,10)
+noise_lst = np.linspace(0,0.4,10)
 
 np.save("noise_lst.npy", noise_lst)
 noise_index = int(sys.argv[1])
