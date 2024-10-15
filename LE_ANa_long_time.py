@@ -178,7 +178,7 @@ def eigu(U,tol=1e-9):
     return (U_1[inds],V_1[:,inds]) # = (U_d,V) s.t. U=V*U_d*V^\dagger
 
 # %%
-n =13   # Number of unit lattices 
+n =250   # Number of unit lattices 
 Lx = 4*n        # Number of lattice sites along the x direction
 Ly = 52        # Number of lattice sites along the y direction   
 J = 1       # Hopping coefficient 
@@ -235,21 +235,21 @@ print(np.abs(np.transpose(eigenfunctionsA[99])[:][26]))
 
 # %%
 #plt.imshow(np.abs(eigenfunctionsA[99]))
-init_wave = np.transpose(eigenfunctionsA[99])[:][26]
-plt.plot(np.arange(52),np.abs(np.transpose(eigenfunctionsA[99])[:][26]), label = 'ky = 0')
+init_wave = np.transpose(eigenfunctionsA[99])[:][500]
+plt.plot(np.arange(52),np.abs(np.transpose(eigenfunctionsA[99])[:][500]), label = 'ky = 0')
 plt.title(label = 'Edge state for ky ~ ${0}$ post evolution ' )
 plt.xlabel('$x$')
 plt.ylabel('Probability Density')
 plt.show()
 
 # %%
-n =13   # Number of unit lattices 
+n =250   # Number of unit lattices 
 Lx = 4*n        # Number of lattice sites along the x direction
 Ly = 52
 J = 1       # Hopping coefficient 
 Jprime =0.10        # Hopping coefficent 
-m = 50      # Multiples of T
-noise_lst = np.linspace(0,0.4,10)
+m = 10      # Multiples of T
+noise_lst = [0.1]*100
 
 np.save("noise_lst.npy", noise_lst)
 noise_index = int(sys.argv[1])
@@ -290,14 +290,7 @@ def time_evolv(initial_wave):
     return final_waves
 
 # %%
-final= []
-for i in range(10):
-    final.append(time_evolv(init_wave))
-#finale = time_evolv(init_wave)
-for j in range(10):
-    for i in range(0,len(t_A)):
-        plt.plot(np.arange(52),np.abs(final[j][i]), label = 'ky = 0')
-    plt.show()
+final = (time_evolv(init_wave))
 
 # %%
 def lochsgmidt_echo(final_vector,initial_vecotr):
@@ -309,83 +302,13 @@ def lochsgmidt_echo(final_vector,initial_vecotr):
 # %%
 W_0_21 = []
 for i in range(0,len(t_A)):
-    finale = final[0]
+    finale = final
     W_0_21.append(lochsgmidt_echo(finale[i], init_wave))
 
 # %%
-W_0_22 = []
-for i in range(0,len(t_A)):
-    finale = final[1]
-    W_0_22.append(lochsgmidt_echo(finale[i], init_wave))
 
 # %%
-W_0_23 = []
-for i in range(0,len(t_A)):
-    finale = final[2]
-    W_0_23.append(lochsgmidt_echo(finale[i], init_wave))
-
-# %%
-W_0_24 = []
-for i in range(0,len(t_A)):
-    finale = final[3]
-    W_0_24.append(lochsgmidt_echo(finale[i], init_wave))
-
-# %%
-W_0_25 = []
-for i in range(0,len(t_A)):
-    finale = final[4]
-    W_0_25.append(lochsgmidt_echo(finale[i], init_wave))
-
-# %%
-W_0_26 = []
-for i in range(0,len(t_A)):
-    finale = final[5]
-    W_0_26.append(lochsgmidt_echo(finale[i], init_wave))
-
-# %%
-W_0_27 = []
-for i in range(0,len(t_A)):
-    finale = final[6]
-    W_0_27.append(lochsgmidt_echo(finale[i], init_wave))
-
-# %%
-W_0_28 = []
-for i in range(0,len(t_A)):
-    finale = final[7]
-    W_0_28.append(lochsgmidt_echo(finale[i], init_wave))
-
-# %%
-W_0_29 = []
-for i in range(0,len(t_A)):
-    finale = final[8]
-    W_0_29.append(lochsgmidt_echo(finale[i], init_wave))
-
-# %%
-W_0_210 = []
-for i in range(0,len(t_A)):
-    finale = final[9]
-    W_0_210.append(lochsgmidt_echo(finale[i], init_wave))
-
-# %%
-arrays = np.array([W_0_210, W_0_29, W_0_28, W_0_27,W_0_26, W_0_25, W_0_24, W_0_23, W_0_22, W_0_21])
-
-# %%
-plt.plot(np.arange(len(t_A)),W_0_29)
-
-# %%
-average = np.mean(arrays,axis = 0)
-
-# %%
-err_bar = (np.std(arrays,axis = 0))
-err_bar = err_bar/np.sqrt(len(err_bar))
-
-# %%
-plt.errorbar(np.arange(len(t_A)),average, yerr = err_bar)
-plt.savefig("LE_Ana.png", dpi=600)
-
-# %%
-np.savetxt("LE_Ana_00_small.txt",average)
-np.savetxt("LE_Ana_00_small_err.txt", err_bar)
+np.savetxt("LE_Ana_00_small.txt",W_0_21)
 
 # %%
 
@@ -400,5 +323,4 @@ plt.plot(np.arange(len(t_A)),average)
 plt.plot(np.arange(len(t_A)),average)
 
 # %%
-
 
