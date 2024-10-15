@@ -249,7 +249,7 @@ Ly = 52
 J = 1       # Hopping coefficient 
 Jprime =0.10        # Hopping coefficent 
 m = 10      # Multiples of T
-noise_lst = [0.1]*100
+noise_lst = [0.2]*96
 
 np.save("noise_lst.npy", noise_lst)
 noise_index = int(sys.argv[1])
@@ -308,7 +308,7 @@ for i in range(0,len(t_A)):
 # %%
 
 # %%
-np.savetxt("LE_Ana_00_small.txt",W_0_21)
+np.savetxt("LE_Ana_02_small.txt",W_0_21)
 
 # %%
 
