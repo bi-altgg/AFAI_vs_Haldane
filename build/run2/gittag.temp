@@ -1,3 +1,74 @@
+commit d5959bdbc6e9692807e8dcce5adae19f4d47eb19
+Author: Bishal Ghosh <bkg230000@ganymede.utdallas.edu>
+Date:   Sun Oct 13 19:46:58 2024 -0500
+
+    Commit before run run2
+
+commit 8fc268d9103c4e0fe0f287a9c37db63f7b6226e9
+Merge: 0874cd3 a23795d
+Author: Bishal Ghosh <bkg230000@ganymede.utdallas.edu>
+Date:   Sun Oct 13 19:44:45 2024 -0500
+
+    Merge branch 'main' of https://github.com/bi-altgg/AFAI_vs_Haldane into main
+
+commit a23795dc0ec4c35ea792e2262e1acfc3cee291cd
+Author: Bishal Ghosh <80319893+bi-altgg@users.noreply.github.com>
+Date:   Sun Oct 13 19:42:34 2024 -0500
+
+    Update LE_ANa_long_time.py
+
+commit 0874cd3f472b97fe8db741fc3e87e0dc51c6b378
+Merge: fbf077a f881a04
+Author: Bishal Ghosh <bkg230000@ganymede.utdallas.edu>
+Date:   Sat Oct 12 22:30:38 2024 -0500
+
+    Merge branch 'main' of https://github.com/bi-altgg/AFAI_vs_Haldane into main
+
+commit f881a04dcf8e5cf70ec9692acbd394ad81caf5ae
+Author: Bishal Ghosh <80319893+bi-altgg@users.noreply.github.com>
+Date:   Sat Oct 12 22:30:10 2024 -0500
+
+    Update LE_ANa_long_time.py
+
+commit fbf077a91c3925dc6eef8187bbafc0ccdbb98f11
+Merge: 7b51b8d 3e6c2a3
+Author: Bishal Ghosh <bkg230000@ganymede.utdallas.edu>
+Date:   Sat Oct 12 21:25:21 2024 -0500
+
+    Merge branch 'main' of https://github.com/bi-altgg/AFAI_vs_Haldane into main
+
+commit 3e6c2a34f8fe74baa4f86dd9abb1a1df4664198d
+Author: Bishal Ghosh <80319893+bi-altgg@users.noreply.github.com>
+Date:   Sat Oct 12 21:24:50 2024 -0500
+
+    Update LE_ANa_long_time.py
+
+commit 7b51b8db094a5c6ac6aa93d450610fdaccf9870a
+Merge: 2c0a6e5 9dc5a3b
+Author: Bishal Ghosh <bkg230000@ganymede.utdallas.edu>
+Date:   Sat Oct 12 21:15:41 2024 -0500
+
+    Merge branch 'main' of https://github.com/bi-altgg/AFAI_vs_Haldane into main
+
+commit 9dc5a3baabab6c1f0cdb8c4e69c66fb276cf14aa
+Author: Bishal Ghosh <80319893+bi-altgg@users.noreply.github.com>
+Date:   Sat Oct 12 21:15:24 2024 -0500
+
+    Update LE_ANa_long_time.py
+
+commit 2c0a6e5134c69ee1b730fcc9f32a99c9510dba40
+Merge: 195b2d5 c4445d4
+Author: Bishal Ghosh <bkg230000@ganymede.utdallas.edu>
+Date:   Sat Oct 12 21:04:00 2024 -0500
+
+    Merge branch 'main' of https://github.com/bi-altgg/AFAI_vs_Haldane into main
+
+commit c4445d4892b0903c319a168f177a56006468de08
+Author: Bishal Ghosh <80319893+bi-altgg@users.noreply.github.com>
+Date:   Sat Oct 12 21:03:43 2024 -0500
+
+    Update LE_ANa_long_time.py
+
 commit 195b2d5912fdeb7703d3dbece38348ba4a8de9a2
 Author: Bishal Ghosh <bkg230000@ganymede.utdallas.edu>
 Date:   Sat Oct 12 20:58:26 2024 -0500
