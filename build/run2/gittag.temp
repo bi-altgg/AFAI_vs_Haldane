@@ -1,3 +1,62 @@
+commit 0c584fc7c41bdbcb4cd2da52953e4cec17c7258b
+Author: Bishal Ghosh <bkg230000@ganymede.utdallas.edu>
+Date:   Tue Oct 15 15:10:31 2024 -0500
+
+    Commit before run run2
+
+commit 660471835231f831565467d44693bcaa1c43ee86
+Merge: 7cfd70e 1e3d841
+Author: Bishal Ghosh <bkg230000@ganymede.utdallas.edu>
+Date:   Tue Oct 15 15:03:21 2024 -0500
+
+    Merge branch 'main' of https://github.com/bi-altgg/AFAI_vs_Haldane into main
+    yes1
+
+commit 1e3d84116e9ffdebc889b131182bb66fb5f5ac42
+Author: Bishal Ghosh <80319893+bi-altgg@users.noreply.github.com>
+Date:   Tue Oct 15 15:00:17 2024 -0500
+
+    Update LE_ANa_long_time.py
+
+commit 7cfd70e5e8984dd148375d45f50b8d2bc592ac24
+Merge: 8444556 02d788b
+Author: Bishal Ghosh <bkg230000@ganymede.utdallas.edu>
+Date:   Sun Oct 13 20:47:43 2024 -0500
+
+    Merge branch 'main' of https://github.com/bi-altgg/AFAI_vs_Haldane into main
+
+commit 02d788b670cc47688ffee12efc2e17b4d661b135
+Author: Bishal Ghosh <80319893+bi-altgg@users.noreply.github.com>
+Date:   Sun Oct 13 20:46:52 2024 -0500
+
+    Update LE_ANa_long_time.py
+
+commit 84445562b8d8ec3508e94ba2fde6ea9c7bcd35e3
+Merge: e26a2fc 6c49b8d
+Author: Bishal Ghosh <bkg230000@ganymede.utdallas.edu>
+Date:   Sun Oct 13 20:44:37 2024 -0500
+
+    Merge branch 'main' of https://github.com/bi-altgg/AFAI_vs_Haldane into main
+
+commit 6c49b8d57edf273c58f817767f4565045c78cd9c
+Author: Bishal Ghosh <80319893+bi-altgg@users.noreply.github.com>
+Date:   Sun Oct 13 20:43:58 2024 -0500
+
+    Update LE_ANa_long_time.py
+
+commit e26a2fcc7a5c34c9ac73363da603594f25c35af0
+Merge: d5959bd 2a529ff
+Author: Bishal Ghosh <bkg230000@ganymede.utdallas.edu>
+Date:   Sun Oct 13 20:16:48 2024 -0500
+
+    Merge branch 'main' of https://github.com/bi-altgg/AFAI_vs_Haldane into main
+
+commit 2a529ff3fbba9772a5a25810e0a8cdcde89f232e
+Author: Bishal Ghosh <80319893+bi-altgg@users.noreply.github.com>
+Date:   Sun Oct 13 20:15:00 2024 -0500
+
+    Update LE_ANa_long_time.py
+
 commit d5959bdbc6e9692807e8dcce5adae19f4d47eb19
 Author: Bishal Ghosh <bkg230000@ganymede.utdallas.edu>
 Date:   Sun Oct 13 19:46:58 2024 -0500

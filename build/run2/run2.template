@@ -1,7 +1,7 @@
 #!/usr/bin/bash
 # Template for ".qsub" files that will be run as batch files by slurm
 
-RUN_NAME=run2
+RUN_NAME=short_02
 PROJECT_NAME=*project*
 SCRATCH_DIR=$SCRATCH/$RUN_NAME/b###
 LOCAL_DIR=$HOME/$PROJECT_NAME/build
