@@ -236,11 +236,11 @@ print(np.abs(np.transpose(eigenfunctionsA[99])[:][26]))
 # %%
 #plt.imshow(np.abs(eigenfunctionsA[99]))
 init_wave = np.transpose(eigenfunctionsA[99])[:][500]
-plt.plot(np.arange(52),np.abs(np.transpose(eigenfunctionsA[99])[:][500]), label = 'ky = 0')
-plt.title(label = 'Edge state for ky ~ ${0}$ post evolution ' )
-plt.xlabel('$x$')
-plt.ylabel('Probability Density')
-plt.show()
+#plt.plot(np.arange(52),np.abs(np.transpose(eigenfunctionsA[99])[:][500]), label = 'ky = 0')
+#plt.title(label = 'Edge state for ky ~ ${0}$ post evolution ' )
+#plt.xlabel('$x$')
+#plt.ylabel('Probability Density')
+#plt.show()
 
 # %%
 n =250   # Number of unit lattices 
@@ -308,7 +308,7 @@ for i in range(0,len(t_A)):
 # %%
 
 # %%
-np.savetxt("LE_Ana_02_small.txt",W_0_21)
+np.savetxt("LE_Ana_02_edit_small.txt",W_0_21)
 
 # %%
 
