@@ -1,7 +1,7 @@
 #!/usr/bin/bash
 # Template for ".qsub" files that will be run as batch files by slurm
 
-RUN_NAME=short_02
+RUN_NAME=long_02
 PROJECT_NAME=AFAI_vs_Haldane
 SCRATCH_DIR=$SCRATCH/$RUN_NAME/b0
 LOCAL_DIR=$HOME/$PROJECT_NAME/build
