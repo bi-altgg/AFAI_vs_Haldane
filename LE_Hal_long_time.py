@@ -119,14 +119,11 @@ def U(n, Lx, T, ky,noise):
     (E3,V3)=np.linalg.eigh(H3)
 
 
-<<<<<<< HEAD
-U_m = (V3 @ np.diag(np.exp(-1j*E3*(T/3 + noise[0][0]))) @ V3.conj().T) @ (V2 @ np.diag(np.exp(-1j*E2*(T/3 + noise[0][1]))) @ V2.conj().T) @ (V1 @ np.diag(np.exp(-1j*E1*(T/3 + noise[0][2]))) @ V1.conj().T)
-=======
     U_m = (V3 @ np.diag(np.exp(-1j*E3*(T/3 + noise[0][0]))) @ V3.conj().T) @ (V2 @ np.diag(np.exp(-1j*E2*(T/3 + noise[0][1]))) @ V2.conj().T) @ (V1 @ np.diag(np.exp(-1j*E1*(T/3 + noise[0][2]))) @ V1.conj().T)
->>>>>>> 081f74a5b10d4af33e5eb3b92ab0cfeaacb20023
     #fix the loop such that the ky must be same.
     return U_m
 
+# %%
 def adjoint(psi):
     return psi.conjugate().transpose()
 def psi_to_rho(psi):
@@ -186,7 +183,7 @@ Lx = 4*n        # Number of lattice sites along the x direction
 Ly = 52        # Number of lattice sites along the y direction   
 J = 1       # Hopping coefficient 
 Jprime =0.10      # Number of lattice sites along the y direction
-T_A  = 3*np.pi/2 
+T_A  = 3*np.pi/6 
 WNoiseinit = 0.0
 W = WNoiseinit
 omegaA = (2*np.pi)/T_A 
@@ -231,19 +228,10 @@ plt.ylim(-0.5,0.5)
 plt.xlim(-np.pi,np.pi)
 
 # %%
-plt.imshow(np.abs(eigenfunctionsA[99]))
-plt.colorbar(label='Probability Density')
-print(np.abs(eigenfunctionsA[99]))
-print(np.abs(np.transpose(eigenfunctionsA[99])[:][26]))
-
+#
 # %%
 #plt.imshow(np.abs(eigenfunctionsA[99]))
 init_wave = np.transpose(eigenfunctionsA[99])[:][500]
-#plt.plot(np.arange(52),np.abs(np.transpose(eigenfunctionsA[99])[:][500]), label = 'ky = 0')
-#plt.title(label = 'Edge state for ky ~ ${0}$ post evolution ' )
-#plt.xlabel('$x$')
-#plt.ylabel('Probability Density')
-#plt.show()
 
 # %%
 n =250   # Number of unit lattices 
@@ -252,7 +240,7 @@ Ly = 52
 J = 1       # Hopping coefficient 
 Jprime =0.10        # Hopping coefficent 
 m = 1000      # Multiples of T
-noise_lst = [0.2]*96
+noise_lst = [0.2]*100
 
 np.save("noise_lst.npy", noise_lst)
 noise_index = int(sys.argv[1])
@@ -260,7 +248,7 @@ noise_index = int(sys.argv[1])
 W = noise_lst[noise_index]  # In kHz units.
 np.save("source_bias.npy", W)  # Noise strength
 # Variables for anomalous 
-T_A  = 3*np.pi/2         # Driving period 
+T_A  = 3*np.pi/6         # Driving period 
 t_A = np.arange(0 ,m*T_A, T_A)      # Mutlples of driving period for 
 omegaA = (2*np.pi)/T_A 
 
@@ -294,19 +282,4 @@ average_echo = propagate(W)
 # %%
 
 # %%
-np.savetxt("LE_Ana_02_edit_small.txt",average_echo)
-
-# %%
-
-
-# %%
-#plt.plot(np.arange(len(t_A)),average)
-
-# %%
-#plt.plot(np.arange(len(t_A)),average)
-
-# %%
-#plt.plot(np.arange(len(t_A)),average)
-
-# %%
-
+np.savetxt("LE_Hal_02_edit_large.txt",average_echo)
