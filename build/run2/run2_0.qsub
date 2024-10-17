@@ -1,14 +1,14 @@
 #!/usr/bin/bash
 # Template for ".qsub" files that will be run as batch files by slurm
 
-RUN_NAME=ANA_long_time
+RUN_NAME=Hal_long_time
 PROJECT_NAME=AFAI_vs_Haldane
 SCRATCH_DIR=$SCRATCH/$RUN_NAME/b0
 LOCAL_DIR=$HOME/$PROJECT_NAME/build
 
 mkdir -p $SCRATCH_DIR
 
-EXEC=LE_ANa_long_time.py
+EXEC=LE_Hal_long_time.py
 HELPER=""
 
 cd $LOCAL_DIR/$RUN_NAME
