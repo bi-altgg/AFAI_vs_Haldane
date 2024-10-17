@@ -119,11 +119,10 @@ def U(n, Lx, T, ky,noise):
     (E3,V3)=np.linalg.eigh(H3)
 
 
-    U_m = (V3 @ np.diag(np.exp(-1j*E3*(T*(1 + noise[0][0])/3))) @ V3.conj().T) @ (V2 @ np.diag(np.exp(-1j*E2*(T*(1 + noise[0][1])/3))) @ V2.conj().T) @ (V1 @ np.diag(np.exp(-1j*E1*(T*(1 + noise[0][2])/3))) @ V1.conj().T)
+    U_m = (V3 @ np.diag(np.exp(-1j*E3*(T/3 + noise[0][0]))) @ V3.conj().T) @ (V2 @ np.diag(np.exp(-1j*E2*(T/3 + noise[0][1]))) @ V2.conj().T) @ (V1 @ np.diag(np.exp(-1j*E1*(T/3 + noise[0][2]))) @ V1.conj().T)
     #fix the loop such that the ky must be same.
     return U_m
 
-# %%
 def adjoint(psi):
     return psi.conjugate().transpose()
 def psi_to_rho(psi):
@@ -248,7 +247,7 @@ Lx = 4*n        # Number of lattice sites along the x direction
 Ly = 52
 J = 1       # Hopping coefficient 
 Jprime =0.10        # Hopping coefficent 
-m = 10      # Multiples of T
+m = 1000      # Multiples of T
 noise_lst = [0.2]*96
 
 np.save("noise_lst.npy", noise_lst)
@@ -261,38 +260,6 @@ T_A  = 3*np.pi/2         # Driving period
 t_A = np.arange(0 ,m*T_A, T_A)      # Mutlples of driving period for 
 omegaA = (2*np.pi)/T_A 
 
-# %%
-def propagate(W):
-    ky_list = np.linspace(-np.pi, np.pi, 100)
-    GA = np.zeros((len(t_A), Lx, Lx), dtype = complex)
-    ky = 3
-    for step in range(0, len(t_A)):
-        random = np.random.uniform(-W,W,(1,3))
-        if step == 0:
-            GA[step,:,:] = U(n, Lx, T_A, ky_list[99],random)
-        else:
-            GA[step,:,:] = U(n, Lx,  (t_A[step] - t_A[step-1]), ky_list[99],random) @ GA[step - 1,:,:]
-    return GA
-
-
-# %%
-
-
-# %%
-def time_evolv(initial_wave):
-    GA = propagate(W)
-    final_waves = []
-    for step in range(0, len(t_A)):
-        if step == 0:
-            final_waves.append(initial_wave)
-        else:
-            final_waves.append(GA[step,:,:]@initial_wave)
-    return final_waves
-
-# %%
-final = (time_evolv(init_wave))
-
-# %%
 def lochsgmidt_echo(final_vector,initial_vecotr):
     final_vecto = final_vector/((np.linalg.norm(final_vector)))
     initial_vecot = initial_vecotr/((np.linalg.norm(initial_vecotr)))
@@ -300,27 +267,42 @@ def lochsgmidt_echo(final_vector,initial_vecotr):
     return np.abs(rate)
 
 # %%
-W_0_21 = []
-for i in range(0,len(t_A)):
-    finale = final
-    W_0_21.append(lochsgmidt_echo(finale[i], init_wave))
+def propagate(W):
+    W_0_21 = []
+    ky_list = np.linspace(-np.pi, np.pi, 100)
+    GA = np.zeros((len(t_A), Lx, Lx), dtype = complex)
+    for step in range(0, len(t_A)):
+        random = np.random.uniform(-W,W,(1,3))
+        if step == 0:
+            GA[step,:,:] = U(n, Lx, T_A, ky_list[99],random)
+            final_waves = (init_wave)
+            W_0_21.append(lochsgmidt_echo(final_waves, init_wave))
+        else:
+            GA[step,:,:] = U(n, Lx,  (t_A[step] - t_A[step-1]), ky_list[99],random) @ GA[step - 1,:,:]
+            final_waves = (GA[step,:,:]@init_wave)
+            W_0_21.append(lochsgmidt_echo(final_waves, init_wave))
+    return W_0_21
+
+
+# %%
+average_echo = propagate(W)
 
 # %%
 
 # %%
-np.savetxt("LE_Ana_02_edit_small.txt",W_0_21)
+np.savetxt("LE_Ana_02_edit_small.txt",average_echo)
 
 # %%
 
 
 # %%
-plt.plot(np.arange(len(t_A)),average)
+#plt.plot(np.arange(len(t_A)),average)
 
 # %%
-plt.plot(np.arange(len(t_A)),average)
+#plt.plot(np.arange(len(t_A)),average)
 
 # %%
-plt.plot(np.arange(len(t_A)),average)
+#plt.plot(np.arange(len(t_A)),average)
 
 # %%
 
