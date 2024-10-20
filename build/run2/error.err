@@ -1,5 +1,22 @@
-run2_0.qsub: line 22: ./WO2_long_time.py: Permission denied
+/home/bkg230000/anaconda3/envs/myenv/lib/python3.9/site-packages/matplotlib/cbook.py:1762: ComplexWarning: Casting complex values to real discards the imaginary part
+  return math.isfinite(val)
+/home/bkg230000/anaconda3/envs/myenv/lib/python3.9/site-packages/matplotlib/cbook.py:1398: ComplexWarning: Casting complex values to real discards the imaginary part
+  return np.asarray(x, float)
 
-real	0m0.001s
-user	0m0.001s
-sys	0m0.000s
+real	130m31.648s
+user	354m46.116s
+sys	32m58.078s
+  python ./$EXEC 3
+
+real	126m49.991s
+user	297m43.786s
+sys	30m52.526s
+ in <module>
+    average_echo = propagate(W)
+  File "/home/bkg230000/AFAI_vs_Haldane/build/run2/./LE_ANa_long_time.py", line 274, in propagate
+    GA = np.zeros((len(t_A), Lx, Lx), dtype = complex)
+numpy.core._exceptions._ArrayMemoryError: Unable to allocate 11.2 GiB for an array with shape (750, 1000, 1000) and data type complex128
+
+real	89m20.339s
+user	84m38.545s
+sys	10m43.133s
