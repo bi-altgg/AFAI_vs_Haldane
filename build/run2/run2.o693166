@@ -1,0 +1,572 @@
+Starting job run2
+WARNING (10/18/24 17:57:30): LAUNCHER_WORKDIR variable not set. Using current directory.
+Launcher: Setup complete.
+
+------------- SUMMARY ---------------
+   Number of hosts:    6
+   Working directory:  /home/bkg230000/AFAI_vs_Haldane/build/run2
+   Processes per host: 16
+   Total processes:    96
+   Total jobs:         96
+   Scheduling method:  interleaved
+
+-------------------------------------
+Launcher: Starting parallel tasks...
+using /tmp/launcher.693166.hostlist.mrP0lXth to get hosts
+starting job on compute-1-8-14
+starting job on compute-1-8-15
+starting job on compute-1-8-16
+starting job on compute-1-8-17
+starting job on compute-1-8-18
+starting job on compute-1-8-19
+Launcher: Task 9 running job 10 on compute-1-8-14 (bash run2_9.qsub)
+Launcher: Task 3 running job 4 on compute-1-8-14 (bash run2_3.qsub)
+Launcher: Task 15 running job 16 on compute-1-8-14 (bash run2_15.qsub)
+Launcher: Task 8 running job 9 on compute-1-8-14 (bash run2_8.qsub)
+Launcher: Task 10 running job 11 on compute-1-8-14 (bash run2_10.qsub)
+Launcher: Task 13 running job 14 on compute-1-8-14 (bash run2_13.qsub)
+Launcher: Task 5 running job 6 on compute-1-8-14 (bash run2_5.qsub)
+Launcher: Task 6 running job 7 on compute-1-8-14 (bash run2_6.qsub)
+Launcher: Task 12 running job 13 on compute-1-8-14 (bash run2_12.qsub)
+Launcher: Task 11 running job 12 on compute-1-8-14 (bash run2_11.qsub)
+Launcher: Task 1 running job 2 on compute-1-8-14 (bash run2_1.qsub)
+Launcher: Task 4 running job 5 on compute-1-8-14 (bash run2_4.qsub)
+Launcher: Task 2 running job 3 on compute-1-8-14 (bash run2_2.qsub)
+Launcher: Task 0 running job 1 on compute-1-8-14 (bash run2_0.qsub)
+Launcher: Task 14 running job 15 on compute-1-8-14 (bash run2_14.qsub)
+Launcher: Task 7 running job 8 on compute-1-8-14 (bash run2_7.qsub)
+run2_3.qsub: line 14: cd: /home/bkg230000/AFAI_vs_Haldane/build/Hal_long_time_005: No such file or directory
+run2_5.qsub: line 14: cd: /home/bkg230000/AFAI_vs_Haldane/build/Hal_long_time_005: No such file or directory
+run2_8.qsub: line 14: cd: /home/bkg230000/AFAI_vs_Haldane/build/Hal_long_time_005: No such file or directory
+run2_4.qsub: line 14: cd: /home/bkg230000/AFAI_vs_Haldane/build/Hal_long_time_005: No such file or directory
+run2_10.qsub: line 14: cd: /home/bkg230000/AFAI_vs_Haldane/build/Hal_long_time_005: No such file or directory
+run2_9.qsub: line 14: cd: /home/bkg230000/AFAI_vs_Haldane/build/Hal_long_time_005: No such file or directory
+run2_15.qsub: line 14: cd: /home/bkg230000/AFAI_vs_Haldane/build/Hal_long_time_005: No such file or directory
+run2_14.qsub: line 14: cd: /home/bkg230000/AFAI_vs_Haldane/build/Hal_long_time_005: No such file or directory
+run2_7.qsub: line 14: cd: /home/bkg230000/AFAI_vs_Haldane/build/Hal_long_time_005: No such file or directory
+run2_2.qsub: line 14: cd: /home/bkg230000/AFAI_vs_Haldane/build/Hal_long_time_005: No such file or directory
+run2_0.qsub: line 14: cd: /home/bkg230000/AFAI_vs_Haldane/build/Hal_long_time_005: No such file or directory
+run2_6.qsub: line 14: cd: /home/bkg230000/AFAI_vs_Haldane/build/Hal_long_time_005: No such file or directory
+run2_1.qsub: line 14: cd: /home/bkg230000/AFAI_vs_Haldane/build/Hal_long_time_005: No such file or directory
+run2_12.qsub: line 14: cd: /home/bkg230000/AFAI_vs_Haldane/build/Hal_long_time_005: No such file or directory
+run2_11.qsub: line 14: cd: /home/bkg230000/AFAI_vs_Haldane/build/Hal_long_time_005: No such file or directory
+run2_13.qsub: line 14: cd: /home/bkg230000/AFAI_vs_Haldane/build/Hal_long_time_005: No such file or directory
+Launcher: Task 64 running job 65 on compute-1-8-18 (bash run2_64.qsub)
+Launcher: Task 71 running job 72 on compute-1-8-18 (bash run2_71.qsub)
+Launcher: Task 69 running job 70 on compute-1-8-18 (bash run2_69.qsub)
+Launcher: Task 73 running job 74 on compute-1-8-18 (bash run2_73.qsub)
+Launcher: Task 66 running job 67 on compute-1-8-18 (bash run2_66.qsub)
+Launcher: Task 74 running job 75 on compute-1-8-18 (bash run2_74.qsub)
+Launcher: Task 70 running job 71 on compute-1-8-18 (bash run2_70.qsub)
+Launcher: Task 72 running job 73 on compute-1-8-18 (bash run2_72.qsub)
+Launcher: Task 79 running job 80 on compute-1-8-18 (bash run2_79.qsub)
+Launcher: Task 68 running job 69 on compute-1-8-18 (bash run2_68.qsub)
+Launcher: Task 75 running job 76 on compute-1-8-18 (bash run2_75.qsub)
+Launcher: Task 77 running job 78 on compute-1-8-18 (bash run2_77.qsub)
+Launcher: Task 78 running job 79 on compute-1-8-18 (bash run2_78.qsub)
+Launcher: Task 67 running job 68 on compute-1-8-18 (bash run2_67.qsub)
+Launcher: Task 65 running job 66 on compute-1-8-18 (bash run2_65.qsub)
+Launcher: Task 76 running job 77 on compute-1-8-18 (bash run2_76.qsub)
+run2_73.qsub: line 14: cd: /home/bkg230000/AFAI_vs_Haldane/build/Hal_long_time_005: No such file or directory
+run2_65.qsub: line 14: cd: /home/bkg230000/AFAI_vs_Haldane/build/Hal_long_time_005: No such file or directory
+run2_67.qsub: line 14: cd: /home/bkg230000/AFAI_vs_Haldane/build/Hal_long_time_005: No such file or directory
+run2_70.qsub: line 14: cd: /home/bkg230000/AFAI_vs_Haldane/build/Hal_long_time_005: No such file or directory
+run2_64.qsub: line 14: cd: /home/bkg230000/AFAI_vs_Haldane/build/Hal_long_time_005: No such file or directory
+run2_71.qsub: line 14: cd: /home/bkg230000/AFAI_vs_Haldane/build/Hal_long_time_005: No such file or directory
+run2_78.qsub: line 14: cd: /home/bkg230000/AFAI_vs_Haldane/build/Hal_long_time_005: No such file or directory
+run2_74.qsub: line 14: cd: /home/bkg230000/AFAI_vs_Haldane/build/Hal_long_time_005: No such file or directory
+run2_76.qsub: line 14: cd: /home/bkg230000/AFAI_vs_Haldane/build/Hal_long_time_005: No such file or directory
+run2_66.qsub: line 14: cd: /home/bkg230000/AFAI_vs_Haldane/build/Hal_long_time_005: No such file or directory
+run2_75.qsub: line 14: cd: /home/bkg230000/AFAI_vs_Haldane/build/Hal_long_time_005: No such file or directory
+run2_79.qsub: line 14: cd: /home/bkg230000/AFAI_vs_Haldane/build/Hal_long_time_005: No such file or directory
+run2_68.qsub: line 14: cd: /home/bkg230000/AFAI_vs_Haldane/build/Hal_long_time_005: No such file or directory
+run2_69.qsub: line 14: cd: /home/bkg230000/AFAI_vs_Haldane/build/Hal_long_time_005: No such file or directory
+run2_72.qsub: line 14: cd: /home/bkg230000/AFAI_vs_Haldane/build/Hal_long_time_005: No such file or directory
+run2_77.qsub: line 14: cd: /home/bkg230000/AFAI_vs_Haldane/build/Hal_long_time_005: No such file or directory
+Launcher: Task 23 running job 24 on compute-1-8-15 (bash run2_23.qsub)
+Launcher: Task 31 running job 32 on compute-1-8-15 (bash run2_31.qsub)
+Launcher: Task 27 running job 28 on compute-1-8-15 (bash run2_27.qsub)
+Launcher: Task 16 running job 17 on compute-1-8-15 (bash run2_16.qsub)
+Launcher: Task 18 running job 19 on compute-1-8-15 (bash run2_18.qsub)
+Launcher: Task 17 running job 18 on compute-1-8-15 (bash run2_17.qsub)
+Launcher: Task 26 running job 27 on compute-1-8-15 (bash run2_26.qsub)
+Launcher: Task 22 running job 23 on compute-1-8-15 (bash run2_22.qsub)
+Launcher: Task 29 running job 30 on compute-1-8-15 (bash run2_29.qsub)
+Launcher: Task 25 running job 26 on compute-1-8-15 (bash run2_25.qsub)
+Launcher: Task 19 running job 20 on compute-1-8-15 (bash run2_19.qsub)
+Launcher: Task 21 running job 22 on compute-1-8-15 (bash run2_21.qsub)
+Launcher: Task 24 running job 25 on compute-1-8-15 (bash run2_24.qsub)
+Launcher: Task 30 running job 31 on compute-1-8-15 (bash run2_30.qsub)
+Launcher: Task 20 running job 21 on compute-1-8-15 (bash run2_20.qsub)
+Launcher: Task 28 running job 29 on compute-1-8-15 (bash run2_28.qsub)
+run2_28.qsub: line 14: cd: /home/bkg230000/AFAI_vs_Haldane/build/Hal_long_time_005: No such file or directory
+run2_21.qsub: line 14: cd: /home/bkg230000/AFAI_vs_Haldane/build/Hal_long_time_005: No such file or directory
+run2_26.qsub: line 14: cd: /home/bkg230000/AFAI_vs_Haldane/build/Hal_long_time_005: No such file or directory
+run2_18.qsub: line 14: cd: /home/bkg230000/AFAI_vs_Haldane/build/Hal_long_time_005: No such file or directory
+run2_24.qsub: line 14: cd: /home/bkg230000/AFAI_vs_Haldane/build/Hal_long_time_005: No such file or directory
+run2_17.qsub: line 14: cd: /home/bkg230000/AFAI_vs_Haldane/build/Hal_long_time_005: No such file or directory
+run2_30.qsub: line 14: cd: /home/bkg230000/AFAI_vs_Haldane/build/Hal_long_time_005: No such file or directory
+run2_29.qsub: line 14: cd: /home/bkg230000/AFAI_vs_Haldane/build/Hal_long_time_005: No such file or directory
+run2_16.qsub: line 14: cd: /home/bkg230000/AFAI_vs_Haldane/build/Hal_long_time_005: No such file or directory
+run2_27.qsub: line 14: cd: /home/bkg230000/AFAI_vs_Haldane/build/Hal_long_time_005: No such file or directory
+run2_19.qsub: line 14: cd: /home/bkg230000/AFAI_vs_Haldane/build/Hal_long_time_005: No such file or directory
+run2_20.qsub: line 14: cd: /home/bkg230000/AFAI_vs_Haldane/build/Hal_long_time_005: No such file or directory
+run2_25.qsub: line 14: cd: /home/bkg230000/AFAI_vs_Haldane/build/Hal_long_time_005: No such file or directory
+run2_22.qsub: line 14: cd: /home/bkg230000/AFAI_vs_Haldane/build/Hal_long_time_005: No such file or directory
+run2_31.qsub: line 14: cd: /home/bkg230000/AFAI_vs_Haldane/build/Hal_long_time_005: No such file or directory
+run2_23.qsub: line 14: cd: /home/bkg230000/AFAI_vs_Haldane/build/Hal_long_time_005: No such file or directory
+Launcher: Task 44 running job 45 on compute-1-8-16 (bash run2_44.qsub)
+Launcher: Task 32 running job 33 on compute-1-8-16 (bash run2_32.qsub)
+Launcher: Task 47 running job 48 on compute-1-8-16 (bash run2_47.qsub)
+Launcher: Task 40 running job 41 on compute-1-8-16 (bash run2_40.qsub)
+Launcher: Task 36 running job 37 on compute-1-8-16 (bash run2_36.qsub)
+Launcher: Task 39 running job 40 on compute-1-8-16 (bash run2_39.qsub)
+Launcher: Task 35 running job 36 on compute-1-8-16 (bash run2_35.qsub)
+Launcher: Task 46 running job 47 on compute-1-8-16 (bash run2_46.qsub)
+Launcher: Task 41 running job 42 on compute-1-8-16 (bash run2_41.qsub)
+Launcher: Task 34 running job 35 on compute-1-8-16 (bash run2_34.qsub)
+Launcher: Task 42 running job 43 on compute-1-8-16 (bash run2_42.qsub)
+Launcher: Task 38 running job 39 on compute-1-8-16 (bash run2_38.qsub)
+Launcher: Task 33 running job 34 on compute-1-8-16 (bash run2_33.qsub)
+Launcher: Task 43 running job 44 on compute-1-8-16 (bash run2_43.qsub)
+Launcher: Task 45 running job 46 on compute-1-8-16 (bash run2_45.qsub)
+Launcher: Task 37 running job 38 on compute-1-8-16 (bash run2_37.qsub)
+run2_41.qsub: line 14: cd: /home/bkg230000/AFAI_vs_Haldane/build/Hal_long_time_005: No such file or directory
+run2_42.qsub: line 14: cd: /home/bkg230000/AFAI_vs_Haldane/build/Hal_long_time_005: No such file or directory
+run2_37.qsub: line 14: cd: /home/bkg230000/AFAI_vs_Haldane/build/Hal_long_time_005: No such file or directory
+run2_46.qsub: line 14: cd: /home/bkg230000/AFAI_vs_Haldane/build/Hal_long_time_005: No such file or directory
+run2_32.qsub: line 14: cd: /home/bkg230000/AFAI_vs_Haldane/build/Hal_long_time_005: No such file or directory
+run2_44.qsub: line 14: cd: /home/bkg230000/AFAI_vs_Haldane/build/Hal_long_time_005: No such file or directory
+run2_34.qsub: line 14: cd: /home/bkg230000/AFAI_vs_Haldane/build/Hal_long_time_005: No such file or directory
+run2_35.qsub: line 14: cd: /home/bkg230000/AFAI_vs_Haldane/build/Hal_long_time_005: No such file or directory
+run2_45.qsub: line 14: cd: /home/bkg230000/AFAI_vs_Haldane/build/Hal_long_time_005: No such file or directory
+run2_47.qsub: line 14: cd: /home/bkg230000/AFAI_vs_Haldane/build/Hal_long_time_005: No such file or directory
+run2_33.qsub: line 14: cd: /home/bkg230000/AFAI_vs_Haldane/build/Hal_long_time_005: No such file or directory
+run2_38.qsub: line 14: cd: /home/bkg230000/AFAI_vs_Haldane/build/Hal_long_time_005: No such file or directory
+run2_36.qsub: line 14: cd: /home/bkg230000/AFAI_vs_Haldane/build/Hal_long_time_005: No such file or directory
+run2_43.qsub: line 14: cd: /home/bkg230000/AFAI_vs_Haldane/build/Hal_long_time_005: No such file or directory
+run2_40.qsub: line 14: cd: /home/bkg230000/AFAI_vs_Haldane/build/Hal_long_time_005: No such file or directory
+run2_39.qsub: line 14: cd: /home/bkg230000/AFAI_vs_Haldane/build/Hal_long_time_005: No such file or directory
+Launcher: Task 54 running job 55 on compute-1-8-17 (bash run2_54.qsub)
+Launcher: Task 57 running job 58 on compute-1-8-17 (bash run2_57.qsub)
+Launcher: Task 61 running job 62 on compute-1-8-17 (bash run2_61.qsub)
+Launcher: Task 62 running job 63 on compute-1-8-17 (bash run2_62.qsub)
+Launcher: Task 56 running job 57 on compute-1-8-17 (bash run2_56.qsub)
+Launcher: Task 49 running job 50 on compute-1-8-17 (bash run2_49.qsub)
+Launcher: Task 60 running job 61 on compute-1-8-17 (bash run2_60.qsub)
+Launcher: Task 48 running job 49 on compute-1-8-17 (bash run2_48.qsub)
+Launcher: Task 51 running job 52 on compute-1-8-17 (bash run2_51.qsub)
+Launcher: Task 55 running job 56 on compute-1-8-17 (bash run2_55.qsub)
+Launcher: Task 63 running job 64 on compute-1-8-17 (bash run2_63.qsub)
+Launcher: Task 53 running job 54 on compute-1-8-17 (bash run2_53.qsub)
+Launcher: Task 52 running job 53 on compute-1-8-17 (bash run2_52.qsub)
+Launcher: Task 58 running job 59 on compute-1-8-17 (bash run2_58.qsub)
+Launcher: Task 50 running job 51 on compute-1-8-17 (bash run2_50.qsub)
+Launcher: Task 59 running job 60 on compute-1-8-17 (bash run2_59.qsub)
+run2_54.qsub: line 14: cd: /home/bkg230000/AFAI_vs_Haldane/build/Hal_long_time_005: No such file or directory
+run2_61.qsub: line 14: cd: /home/bkg230000/AFAI_vs_Haldane/build/Hal_long_time_005: No such file or directory
+run2_62.qsub: line 14: cd: /home/bkg230000/AFAI_vs_Haldane/build/Hal_long_time_005: No such file or directory
+run2_53.qsub: line 14: cd: /home/bkg230000/AFAI_vs_Haldane/build/Hal_long_time_005: No such file or directory
+run2_58.qsub: line 14: cd: /home/bkg230000/AFAI_vs_Haldane/build/Hal_long_time_005: No such file or directory
+run2_49.qsub: line 14: cd: /home/bkg230000/AFAI_vs_Haldane/build/Hal_long_time_005: No such file or directory
+run2_63.qsub: line 14: cd: /home/bkg230000/AFAI_vs_Haldane/build/Hal_long_time_005: No such file or directory
+run2_56.qsub: line 14: cd: /home/bkg230000/AFAI_vs_Haldane/build/Hal_long_time_005: No such file or directory
+run2_60.qsub: line 14: cd: /home/bkg230000/AFAI_vs_Haldane/build/Hal_long_time_005: No such file or directory
+run2_57.qsub: line 14: cd: /home/bkg230000/AFAI_vs_Haldane/build/Hal_long_time_005: No such file or directory
+run2_59.qsub: line 14: cd: /home/bkg230000/AFAI_vs_Haldane/build/Hal_long_time_005: No such file or directory
+run2_48.qsub: line 14: cd: /home/bkg230000/AFAI_vs_Haldane/build/Hal_long_time_005: No such file or directory
+run2_51.qsub: line 14: cd: /home/bkg230000/AFAI_vs_Haldane/build/Hal_long_time_005: No such file or directory
+run2_50.qsub: line 14: cd: /home/bkg230000/AFAI_vs_Haldane/build/Hal_long_time_005: No such file or directory
+run2_55.qsub: line 14: cd: /home/bkg230000/AFAI_vs_Haldane/build/Hal_long_time_005: No such file or directory
+run2_52.qsub: line 14: cd: /home/bkg230000/AFAI_vs_Haldane/build/Hal_long_time_005: No such file or directory
+Launcher: Task 94 running job 95 on compute-1-8-19 (bash run2_94.qsub)
+Launcher: Task 83 running job 84 on compute-1-8-19 (bash run2_83.qsub)
+Launcher: Task 89 running job 90 on compute-1-8-19 (bash run2_89.qsub)
+Launcher: Task 84 running job 85 on compute-1-8-19 (bash run2_84.qsub)
+Launcher: Task 90 running job 91 on compute-1-8-19 (bash run2_90.qsub)
+Launcher: Task 85 running job 86 on compute-1-8-19 (bash run2_85.qsub)
+Launcher: Task 93 running job 94 on compute-1-8-19 (bash run2_93.qsub)
+Launcher: Task 91 running job 92 on compute-1-8-19 (bash run2_91.qsub)
+Launcher: Task 82 running job 83 on compute-1-8-19 (bash run2_82.qsub)
+Launcher: Task 87 running job 88 on compute-1-8-19 (bash run2_87.qsub)
+Launcher: Task 95 running job 96 on compute-1-8-19 (bash run2_95.qsub)
+Launcher: Task 81 running job 82 on compute-1-8-19 (bash run2_81.qsub)
+Launcher: Task 80 running job 81 on compute-1-8-19 (bash run2_80.qsub)
+Launcher: Task 88 running job 89 on compute-1-8-19 (bash run2_88.qsub)
+Launcher: Task 86 running job 87 on compute-1-8-19 (bash run2_86.qsub)
+Launcher: Task 92 running job 93 on compute-1-8-19 (bash run2_92.qsub)
+run2_81.qsub: line 14: cd: /home/bkg230000/AFAI_vs_Haldane/build/Hal_long_time_005: No such file or directory
+run2_88.qsub: line 14: cd: /home/bkg230000/AFAI_vs_Haldane/build/Hal_long_time_005: No such file or directory
+run2_83.qsub: line 14: cd: /home/bkg230000/AFAI_vs_Haldane/build/Hal_long_time_005: No such file or directory
+run2_82.qsub: line 14: cd: /home/bkg230000/AFAI_vs_Haldane/build/Hal_long_time_005: No such file or directory
+run2_85.qsub: line 14: cd: /home/bkg230000/AFAI_vs_Haldane/build/Hal_long_time_005: No such file or directory
+run2_80.qsub: line 14: cd: /home/bkg230000/AFAI_vs_Haldane/build/Hal_long_time_005: No such file or directory
+run2_89.qsub: line 14: cd: /home/bkg230000/AFAI_vs_Haldane/build/Hal_long_time_005: No such file or directory
+run2_90.qsub: line 14: cd: /home/bkg230000/AFAI_vs_Haldane/build/Hal_long_time_005: No such file or directory
+run2_92.qsub: line 14: cd: /home/bkg230000/AFAI_vs_Haldane/build/Hal_long_time_005: No such file or directory
+run2_94.qsub: line 14: cd: /home/bkg230000/AFAI_vs_Haldane/build/Hal_long_time_005: No such file or directory
+run2_91.qsub: line 14: cd: /home/bkg230000/AFAI_vs_Haldane/build/Hal_long_time_005: No such file or directory
+run2_87.qsub: line 14: cd: /home/bkg230000/AFAI_vs_Haldane/build/Hal_long_time_005: No such file or directory
+run2_86.qsub: line 14: cd: /home/bkg230000/AFAI_vs_Haldane/build/Hal_long_time_005: No such file or directory
+run2_93.qsub: line 14: cd: /home/bkg230000/AFAI_vs_Haldane/build/Hal_long_time_005: No such file or directory
+run2_95.qsub: line 14: cd: /home/bkg230000/AFAI_vs_Haldane/build/Hal_long_time_005: No such file or directory
+run2_84.qsub: line 14: cd: /home/bkg230000/AFAI_vs_Haldane/build/Hal_long_time_005: No such file or directory
+Removing files
+Launcher: Job 40 completed in 6504 seconds.
+Launcher: Task 39 done. Exiting.
+Removing files
+Launcher: Job 3 completed in 6605 seconds.
+Launcher: Task 2 done. Exiting.
+Removing files
+Launcher: Job 34 completed in 6930 seconds.
+Launcher: Task 33 done. Exiting.
+Removing files
+Launcher: Job 23 completed in 7153 seconds.
+Launcher: Task 22 done. Exiting.
+Removing files
+Launcher: Job 27 completed in 7173 seconds.
+Launcher: Task 26 done. Exiting.
+Removing files
+Launcher: Job 82 completed in 7297 seconds.
+Launcher: Task 81 done. Exiting.
+Removing files
+Launcher: Job 80 completed in 7482 seconds.
+Launcher: Task 79 done. Exiting.
+Removing files
+Launcher: Job 77 completed in 7489 seconds.
+Launcher: Task 76 done. Exiting.
+Removing files
+Launcher: Job 73 completed in 7496 seconds.
+Launcher: Task 72 done. Exiting.
+Removing files
+Launcher: Job 93 completed in 8659 seconds.
+Launcher: Task 92 done. Exiting.
+Removing files
+Launcher: Job 53 completed in 9545 seconds.
+Launcher: Task 52 done. Exiting.
+Removing files
+Launcher: Job 57 completed in 10452 seconds.
+Launcher: Task 56 done. Exiting.
+Removing files
+Launcher: Job 61 completed in 10780 seconds.
+Launcher: Task 60 done. Exiting.
+Removing files
+Launcher: Job 56 completed in 10851 seconds.
+Launcher: Task 55 done. Exiting.
+Removing files
+Launcher: Job 87 completed in 11408 seconds.
+Launcher: Task 86 done. Exiting.
+Removing files
+Launcher: Job 14 completed in 11476 seconds.
+Launcher: Task 13 done. Exiting.
+Removing files
+Launcher: Job 17 completed in 11748 seconds.
+Launcher: Task 16 done. Exiting.
+Removing files
+Launcher: Job 48 completed in 11870 seconds.
+Launcher: Task 47 done. Exiting.
+Removing files
+Launcher: Job 89 completed in 12178 seconds.
+Launcher: Task 88 done. Exiting.
+Removing files
+Launcher: Job 16 completed in 12217 seconds.
+Launcher: Task 15 done. Exiting.
+Removing files
+Launcher: Job 71 completed in 12316 seconds.
+Launcher: Task 70 done. Exiting.
+Removing files
+Launcher: Job 22 completed in 12579 seconds.
+Launcher: Task 21 done. Exiting.
+Removing files
+Launcher: Job 47 completed in 12670 seconds.
+Launcher: Task 46 done. Exiting.
+Removing files
+Launcher: Job 81 completed in 12949 seconds.
+Launcher: Task 80 done. Exiting.
+Removing files
+Launcher: Job 2 completed in 13024 seconds.
+Launcher: Task 1 done. Exiting.
+Removing files
+Launcher: Job 65 completed in 13208 seconds.
+Launcher: Task 64 done. Exiting.
+Removing files
+Launcher: Job 19 completed in 13434 seconds.
+Launcher: Task 18 done. Exiting.
+run2_38.qsub: line 23: syntax error near unexpected token `then'
+run2_38.qsub: line 23: `f [ "$(pwd)" == $SCRATCH_DIR ]; then'
+Launcher: Job 39 completed in 13541 seconds.
+Launcher: Task 38 done. Exiting.
+run2_69.qsub: line 23: syntax error near unexpected token `then'
+run2_69.qsub: line 23: `f [ "$(pwd)" == $SCRATCH_DIR ]; then'
+Launcher: Job 70 completed in 13708 seconds.
+Launcher: Task 69 done. Exiting.
+run2_78.qsub: line 23: syntax error near unexpected token `then'
+run2_78.qsub: line 23: `f [ "$(pwd)" == $SCRATCH_DIR ]; then'
+Launcher: Job 79 completed in 13710 seconds.
+Launcher: Task 78 done. Exiting.
+run2_95.qsub: line 23: syntax error near unexpected token `then'
+run2_95.qsub: line 23: `f [ "$(pwd)" == $SCRATCH_DIR ]; then'
+run2_94.qsub: line 23: syntax error near unexpected token `then'
+run2_94.qsub: line 23: `f [ "$(pwd)" == $SCRATCH_DIR ]; then'
+Launcher: Job 95 completed in 13758 seconds.
+Launcher: Job 96 completed in 13758 seconds.
+Launcher: Task 94 done. Exiting.
+Launcher: Task 95 done. Exiting.
+run2_67.qsub: line 23: syntax error near unexpected token `then'
+run2_67.qsub: line 23: `f [ "$(pwd)" == $SCRATCH_DIR ]; then'
+Launcher: Job 68 completed in 13779 seconds.
+Launcher: Task 67 done. Exiting.
+run2_77.qsub: line 23: syntax error near unexpected token `then'
+run2_77.qsub: line 23: `f [ "$(pwd)" == $SCRATCH_DIR ]; then'
+Launcher: Job 78 completed in 13793 seconds.
+Launcher: Task 77 done. Exiting.
+run2_73.qsub: line 23: syntax error near unexpected token `then'
+run2_73.qsub: line 23: `f [ "$(pwd)" == $SCRATCH_DIR ]; then'
+Launcher: Job 74 completed in 13800 seconds.
+Launcher: Task 73 done. Exiting.
+run2_71.qsub: line 23: syntax error near unexpected token `then'
+run2_71.qsub: line 23: `f [ "$(pwd)" == $SCRATCH_DIR ]; then'
+Launcher: Job 72 completed in 13839 seconds.
+Launcher: Task 71 done. Exiting.
+run2_75.qsub: line 23: syntax error near unexpected token `then'
+run2_75.qsub: line 23: `f [ "$(pwd)" == $SCRATCH_DIR ]; then'
+Launcher: Job 76 completed in 13855 seconds.
+Launcher: Task 75 done. Exiting.
+run2_66.qsub: line 23: syntax error near unexpected token `then'
+run2_66.qsub: line 23: `f [ "$(pwd)" == $SCRATCH_DIR ]; then'
+Launcher: Job 67 completed in 13863 seconds.
+Launcher: Task 66 done. Exiting.
+run2_10.qsub: line 23: syntax error near unexpected token `then'
+run2_10.qsub: line 23: `f [ "$(pwd)" == $SCRATCH_DIR ]; then'
+Launcher: Job 11 completed in 13866 seconds.
+Launcher: Task 10 done. Exiting.
+run2_65.qsub: line 23: syntax error near unexpected token `then'
+run2_65.qsub: line 23: `f [ "$(pwd)" == $SCRATCH_DIR ]; then'
+Launcher: Job 66 completed in 13880 seconds.
+Launcher: Task 65 done. Exiting.
+run2_68.qsub: line 23: syntax error near unexpected token `then'
+run2_68.qsub: line 23: `f [ "$(pwd)" == $SCRATCH_DIR ]; then'
+Launcher: Job 69 completed in 13891 seconds.
+Launcher: Task 68 done. Exiting.
+run2_74.qsub: line 23: syntax error near unexpected token `then'
+run2_74.qsub: line 23: `f [ "$(pwd)" == $SCRATCH_DIR ]; then'
+Launcher: Job 75 completed in 13893 seconds.
+Launcher: Task 74 done. Exiting.
+run2_29.qsub: line 23: syntax error near unexpected token `then'
+run2_29.qsub: line 23: `f [ "$(pwd)" == $SCRATCH_DIR ]; then'
+Launcher: Job 30 completed in 13895 seconds.
+Launcher: Task 29 done. Exiting.
+run2_28.qsub: line 23: syntax error near unexpected token `then'
+run2_28.qsub: line 23: `f [ "$(pwd)" == $SCRATCH_DIR ]; then'
+Launcher: Job 29 completed in 13918 seconds.
+Launcher: Task 28 done. Exiting.
+run2_23.qsub: line 23: syntax error near unexpected token `then'
+run2_23.qsub: line 23: `f [ "$(pwd)" == $SCRATCH_DIR ]; then'
+Launcher: Job 24 completed in 13924 seconds.
+Launcher: Task 23 done. Exiting.
+run2_17.qsub: line 23: syntax error near unexpected token `then'
+run2_17.qsub: line 23: `f [ "$(pwd)" == $SCRATCH_DIR ]; then'
+Launcher: Job 18 completed in 13994 seconds.
+Launcher: Task 17 done. Exiting.
+run2_31.qsub: line 23: syntax error near unexpected token `then'
+run2_31.qsub: line 23: `f [ "$(pwd)" == $SCRATCH_DIR ]; then'
+run2_19.qsub: line 23: syntax error near unexpected token `then'
+run2_19.qsub: line 23: `f [ "$(pwd)" == $SCRATCH_DIR ]; then'
+Launcher: Job 32 completed in 14058 seconds.
+Launcher: Job 20 completed in 14058 seconds.
+Launcher: Task 31 done. Exiting.
+Launcher: Task 19 done. Exiting.
+run2_57.qsub: line 23: syntax error near unexpected token `then'
+run2_57.qsub: line 23: `f [ "$(pwd)" == $SCRATCH_DIR ]; then'
+Launcher: Job 58 completed in 14101 seconds.
+Launcher: Task 57 done. Exiting.
+run2_24.qsub: line 23: syntax error near unexpected token `then'
+run2_24.qsub: line 23: `f [ "$(pwd)" == $SCRATCH_DIR ]; then'
+Launcher: Job 25 completed in 14139 seconds.
+Launcher: Task 24 done. Exiting.
+run2_25.qsub: line 23: syntax error near unexpected token `then'
+run2_25.qsub: line 23: `f [ "$(pwd)" == $SCRATCH_DIR ]; then'
+Launcher: Job 26 completed in 14139 seconds.
+Launcher: Task 25 done. Exiting.
+run2_30.qsub: line 23: syntax error near unexpected token `then'
+run2_30.qsub: line 23: `f [ "$(pwd)" == $SCRATCH_DIR ]; then'
+Launcher: Job 31 completed in 14143 seconds.
+Launcher: Task 30 done. Exiting.
+run2_20.qsub: line 23: syntax error near unexpected token `then'
+run2_20.qsub: line 23: `f [ "$(pwd)" == $SCRATCH_DIR ]; then'
+Launcher: Job 21 completed in 14144 seconds.
+Launcher: Task 20 done. Exiting.
+run2_27.qsub: line 23: syntax error near unexpected token `then'
+run2_27.qsub: line 23: `f [ "$(pwd)" == $SCRATCH_DIR ]; then'
+Launcher: Job 28 completed in 14147 seconds.
+Launcher: Task 27 done. Exiting.
+run2_45.qsub: line 23: syntax error near unexpected token `then'
+run2_45.qsub: line 23: `f [ "$(pwd)" == $SCRATCH_DIR ]; then'
+Launcher: Job 46 completed in 14207 seconds.
+Launcher: Task 45 done. Exiting.
+run2_35.qsub: line 23: syntax error near unexpected token `then'
+run2_35.qsub: line 23: `f [ "$(pwd)" == $SCRATCH_DIR ]; then'
+Launcher: Job 36 completed in 14214 seconds.
+Launcher: Task 35 done. Exiting.
+run2_36.qsub: line 23: syntax error near unexpected token `then'
+run2_36.qsub: line 23: `f [ "$(pwd)" == $SCRATCH_DIR ]; then'
+Launcher: Job 37 completed in 14350 seconds.
+Launcher: Task 36 done. Exiting.
+run2_42.qsub: line 23: syntax error near unexpected token `then'
+run2_42.qsub: line 23: `f [ "$(pwd)" == $SCRATCH_DIR ]; then'
+Launcher: Job 43 completed in 14359 seconds.
+Launcher: Task 42 done. Exiting.
+run2_40.qsub: line 23: syntax error near unexpected token `then'
+run2_40.qsub: line 23: `f [ "$(pwd)" == $SCRATCH_DIR ]; then'
+Launcher: Job 41 completed in 14375 seconds.
+Launcher: Task 40 done. Exiting.
+run2_43.qsub: line 23: syntax error near unexpected token `then'
+run2_43.qsub: line 23: `f [ "$(pwd)" == $SCRATCH_DIR ]; then'
+Launcher: Job 44 completed in 14385 seconds.
+Launcher: Task 43 done. Exiting.
+run2_41.qsub: line 23: syntax error near unexpected token `then'
+run2_41.qsub: line 23: `f [ "$(pwd)" == $SCRATCH_DIR ]; then'
+Launcher: Job 42 completed in 14394 seconds.
+Launcher: Task 41 done. Exiting.
+run2_51.qsub: line 23: syntax error near unexpected token `then'
+run2_51.qsub: line 23: `f [ "$(pwd)" == $SCRATCH_DIR ]; then'
+Launcher: Job 52 completed in 14400 seconds.
+Launcher: Task 51 done. Exiting.
+run2_44.qsub: line 23: syntax error near unexpected token `then'
+run2_44.qsub: line 23: `f [ "$(pwd)" == $SCRATCH_DIR ]; then'
+Launcher: Job 45 completed in 14416 seconds.
+Launcher: Task 44 done. Exiting.
+run2_34.qsub: line 23: syntax error near unexpected token `then'
+run2_34.qsub: line 23: `f [ "$(pwd)" == $SCRATCH_DIR ]; then'
+Launcher: Job 35 completed in 14426 seconds.
+Launcher: Task 34 done. Exiting.
+run2_37.qsub: line 23: syntax error near unexpected token `then'
+run2_37.qsub: line 23: `f [ "$(pwd)" == $SCRATCH_DIR ]; then'
+Launcher: Job 38 completed in 14429 seconds.
+Launcher: Task 37 done. Exiting.
+run2_32.qsub: line 23: syntax error near unexpected token `then'
+run2_32.qsub: line 23: `f [ "$(pwd)" == $SCRATCH_DIR ]; then'
+Launcher: Job 33 completed in 14430 seconds.
+Launcher: Task 32 done. Exiting.
+run2_62.qsub: line 23: syntax error near unexpected token `then'
+run2_62.qsub: line 23: `f [ "$(pwd)" == $SCRATCH_DIR ]; then'
+Launcher: Job 63 completed in 14571 seconds.
+Launcher: Task 62 done. Exiting.
+run2_48.qsub: line 23: syntax error near unexpected token `then'
+run2_48.qsub: line 23: `f [ "$(pwd)" == $SCRATCH_DIR ]; then'
+Launcher: Job 49 completed in 14584 seconds.
+Launcher: Task 48 done. Exiting.
+run2_4.qsub: line 23: syntax error near unexpected token `then'
+run2_4.qsub: line 23: `f [ "$(pwd)" == $SCRATCH_DIR ]; then'
+Launcher: Job 5 completed in 14597 seconds.
+Launcher: Task 4 done. Exiting.
+run2_54.qsub: line 23: syntax error near unexpected token `then'
+run2_54.qsub: line 23: `f [ "$(pwd)" == $SCRATCH_DIR ]; then'
+Launcher: Job 55 completed in 14613 seconds.
+Launcher: Task 54 done. Exiting.
+run2_11.qsub: line 23: syntax error near unexpected token `then'
+run2_11.qsub: line 23: `f [ "$(pwd)" == $SCRATCH_DIR ]; then'
+Launcher: Job 12 completed in 14631 seconds.
+Launcher: Task 11 done. Exiting.
+run2_14.qsub: line 23: syntax error near unexpected token `then'
+run2_14.qsub: line 23: `f [ "$(pwd)" == $SCRATCH_DIR ]; then'
+Launcher: Job 15 completed in 14653 seconds.
+Launcher: Task 14 done. Exiting.
+run2_12.qsub: line 23: syntax error near unexpected token `then'
+run2_12.qsub: line 23: `f [ "$(pwd)" == $SCRATCH_DIR ]; then'
+Launcher: Job 13 completed in 14673 seconds.
+Launcher: Task 12 done. Exiting.
+run2_3.qsub: line 23: syntax error near unexpected token `then'
+run2_3.qsub: line 23: `f [ "$(pwd)" == $SCRATCH_DIR ]; then'
+Launcher: Job 4 completed in 14675 seconds.
+Launcher: Task 3 done. Exiting.
+run2_5.qsub: line 23: syntax error near unexpected token `then'
+run2_5.qsub: line 23: `f [ "$(pwd)" == $SCRATCH_DIR ]; then'
+Launcher: Job 6 completed in 14694 seconds.
+Launcher: Task 5 done. Exiting.
+run2_53.qsub: line 23: syntax error near unexpected token `then'
+run2_53.qsub: line 23: `f [ "$(pwd)" == $SCRATCH_DIR ]; then'
+Launcher: Job 54 completed in 14709 seconds.
+Launcher: Task 53 done. Exiting.
+run2_8.qsub: line 23: syntax error near unexpected token `then'
+run2_8.qsub: line 23: `f [ "$(pwd)" == $SCRATCH_DIR ]; then'
+Launcher: Job 9 completed in 14714 seconds.
+Launcher: Task 8 done. Exiting.
+run2_63.qsub: line 23: syntax error near unexpected token `then'
+run2_63.qsub: line 23: `f [ "$(pwd)" == $SCRATCH_DIR ]; then'
+Launcher: Job 64 completed in 14736 seconds.
+Launcher: Task 63 done. Exiting.
+run2_0.qsub: line 23: syntax error near unexpected token `then'
+run2_0.qsub: line 23: `f [ "$(pwd)" == $SCRATCH_DIR ]; then'
+Launcher: Job 1 completed in 14738 seconds.
+Launcher: Task 0 done. Exiting.
+run2_7.qsub: line 23: syntax error near unexpected token `then'
+run2_7.qsub: line 23: `f [ "$(pwd)" == $SCRATCH_DIR ]; then'
+Launcher: Job 8 completed in 14756 seconds.
+Launcher: Task 7 done. Exiting.
+run2_50.qsub: line 23: syntax error near unexpected token `then'
+run2_50.qsub: line 23: `f [ "$(pwd)" == $SCRATCH_DIR ]; then'
+Launcher: Job 51 completed in 14769 seconds.
+Launcher: Task 50 done. Exiting.
+run2_6.qsub: line 23: syntax error near unexpected token `then'
+run2_6.qsub: line 23: `f [ "$(pwd)" == $SCRATCH_DIR ]; then'
+Launcher: Job 7 completed in 14774 seconds.
+Launcher: Task 6 done. Exiting.
+run2_9.qsub: line 23: syntax error near unexpected token `then'
+run2_9.qsub: line 23: `f [ "$(pwd)" == $SCRATCH_DIR ]; then'
+Launcher: Job 10 completed in 14775 seconds.
+Launcher: Task 9 done. Exiting.
+run2_83.qsub: line 23: syntax error near unexpected token `then'
+run2_83.qsub: line 23: `f [ "$(pwd)" == $SCRATCH_DIR ]; then'
+Launcher: Job 84 completed in 14809 seconds.
+Launcher: Task 83 done. Exiting.
+run2_89.qsub: line 23: syntax error near unexpected token `then'
+run2_89.qsub: line 23: `f [ "$(pwd)" == $SCRATCH_DIR ]; then'
+Launcher: Job 90 completed in 14832 seconds.
+Launcher: Task 89 done. Exiting.
+run2_49.qsub: line 23: syntax error near unexpected token `then'
+run2_49.qsub: line 23: `f [ "$(pwd)" == $SCRATCH_DIR ]; then'
+Launcher: Job 50 completed in 14836 seconds.
+Launcher: Task 49 done. Exiting.
+run2_59.qsub: line 23: syntax error near unexpected token `then'
+run2_59.qsub: line 23: `f [ "$(pwd)" == $SCRATCH_DIR ]; then'
+Launcher: Job 60 completed in 14837 seconds.
+Launcher: Task 59 done. Exiting.
+run2_61.qsub: line 23: syntax error near unexpected token `then'
+run2_61.qsub: line 23: `f [ "$(pwd)" == $SCRATCH_DIR ]; then'
+Launcher: Job 62 completed in 14852 seconds.
+Launcher: Task 61 done. Exiting.
+run2_58.qsub: line 23: syntax error near unexpected token `then'
+run2_58.qsub: line 23: `f [ "$(pwd)" == $SCRATCH_DIR ]; then'
+Launcher: Job 59 completed in 14853 seconds.
+Launcher: Task 58 done. Exiting.
+run2_87.qsub: line 23: syntax error near unexpected token `then'
+run2_87.qsub: line 23: `f [ "$(pwd)" == $SCRATCH_DIR ]; then'
+Launcher: Job 88 completed in 14869 seconds.
+Launcher: Task 87 done. Exiting.
+run2_91.qsub: line 23: syntax error near unexpected token `then'
+run2_91.qsub: line 23: `f [ "$(pwd)" == $SCRATCH_DIR ]; then'
+Launcher: Job 92 completed in 14888 seconds.
+Launcher: Task 91 done. Exiting.
+run2_85.qsub: line 23: syntax error near unexpected token `then'
+run2_85.qsub: line 23: `f [ "$(pwd)" == $SCRATCH_DIR ]; then'
+Launcher: Job 86 completed in 14897 seconds.
+Launcher: Task 85 done. Exiting.
+run2_84.qsub: line 23: syntax error near unexpected token `then'
+run2_84.qsub: line 23: `f [ "$(pwd)" == $SCRATCH_DIR ]; then'
+Launcher: Job 85 completed in 14920 seconds.
+Launcher: Task 84 done. Exiting.
+run2_90.qsub: line 23: syntax error near unexpected token `then'
+run2_90.qsub: line 23: `f [ "$(pwd)" == $SCRATCH_DIR ]; then'
+Launcher: Job 91 completed in 14926 seconds.
+Launcher: Task 90 done. Exiting.
+run2_82.qsub: line 23: syntax error near unexpected token `then'
+run2_82.qsub: line 23: `f [ "$(pwd)" == $SCRATCH_DIR ]; then'
+Launcher: Job 83 completed in 14927 seconds.
+Launcher: Task 82 done. Exiting.
+run2_93.qsub: line 23: syntax error near unexpected token `then'
+run2_93.qsub: line 23: `f [ "$(pwd)" == $SCRATCH_DIR ]; then'
+Launcher: Job 94 completed in 14928 seconds.
+Launcher: Task 93 done. Exiting.
+Launcher: Done. Job exited without errors
+Job run2 complete

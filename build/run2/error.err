@@ -3,20 +3,21 @@
 /home/bkg230000/anaconda3/envs/myenv/lib/python3.9/site-packages/matplotlib/cbook.py:1398: ComplexWarning: Casting complex values to real discards the imaginary part
   return np.asarray(x, float)
 
-real	131m14.950s
-user	358m7.357s
-sys	33m36.748s
-   python ./$EXEC 8
+real	131m37.699s
+user	358m6.020s
+sys	34m19.760s
+    python ./$EXEC 11
 
-real	127m35.730s
-user	302m41.019s
-sys	31m51.984s
- in <module>
+real	127m58.315s
+user	300m45.107s
+sys	31m55.364s
+n <module>
     average_echo = propagate(W)
-  File "/home/bkg230000/AFAI_vs_Haldane/build/run2/./LE_ANa_long_time.py", line 274, in propagate
+  File "/home/bkg230000/AFAI_vs_Haldane/build/run2/./LE_Hal_long_time.py", line 265, in propagate
     GA = np.zeros((len(t_A), Lx, Lx), dtype = complex)
 numpy.core._exceptions._ArrayMemoryError: Unable to allocate 11.2 GiB for an array with shape (750, 1000, 1000) and data type complex128
 
-real	89m21.262s
-user	84m54.390s
-sys	10m50.611s
+real	89m29.766s
+user	84m2.881s
+sys	10m29.332s
+

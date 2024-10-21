@@ -3,7 +3,7 @@
 
 RUN_NAME=Hal_750_time_02
 PROJECT_NAME=AFAI_vs_Haldane
-SCRATCH_DIR=$SCRATCH/$RUN_NAME/b0
+SCRATCH_DIR=$SCRATCH/$RUN_NAME/b65
 LOCAL_DIR=$HOME/$PROJECT_NAME/build
 
 mkdir -p $SCRATCH_DIR
@@ -19,7 +19,7 @@ then
 fi
 cd $SCRATCH_DIR/
 
-{ time python ./$EXEC 0; } > temp.out 2> error.err
+{ time python ./$EXEC 65; } > temp.out 2> error.err
 
 if [ "$(pwd)" == $SCRATCH_DIR ]; then
     echo "Removing files"

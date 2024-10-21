@@ -1,0 +1,220 @@
+Starting job run2
+WARNING (10/16/24 13:15:47): LAUNCHER_WORKDIR variable not set. Using current directory.
+Launcher: Setup complete.
+
+------------- SUMMARY ---------------
+   Number of hosts:    6
+   Working directory:  /home/bkg230000/AFAI_vs_Haldane/build/run2
+   Processes per host: 16
+   Total processes:    96
+   Total jobs:         96
+   Scheduling method:  interleaved
+
+-------------------------------------
+Launcher: Starting parallel tasks...
+using /tmp/launcher.692737.hostlist.yhvmHq1m to get hosts
+starting job on compute-7-2-21
+starting job on compute-7-2-23
+starting job on compute-7-2-24
+starting job on compute-7-2-26
+starting job on compute-7-2-27
+starting job on compute-7-3-14
+Launcher: Task 2 running job 3 on compute-7-2-21 (bash run2_2.qsub)
+Launcher: Task 0 running job 1 on compute-7-2-21 (bash run2_0.qsub)
+Launcher: Task 1 running job 2 on compute-7-2-21 (bash run2_1.qsub)
+Launcher: Task 3 running job 4 on compute-7-2-21 (bash run2_3.qsub)
+Launcher: Task 9 running job 10 on compute-7-2-21 (bash run2_9.qsub)
+Launcher: Task 4 running job 5 on compute-7-2-21 (bash run2_4.qsub)
+Launcher: Task 7 running job 8 on compute-7-2-21 (bash run2_7.qsub)
+Launcher: Task 5 running job 6 on compute-7-2-21 (bash run2_5.qsub)
+Launcher: Task 14 running job 15 on compute-7-2-21 (bash run2_14.qsub)
+Launcher: Task 8 running job 9 on compute-7-2-21 (bash run2_8.qsub)
+Launcher: Task 15 running job 16 on compute-7-2-21 (bash run2_15.qsub)
+Launcher: Task 6 running job 7 on compute-7-2-21 (bash run2_6.qsub)
+Launcher: Task 12 running job 13 on compute-7-2-21 (bash run2_12.qsub)
+Launcher: Task 13 running job 14 on compute-7-2-21 (bash run2_13.qsub)
+Launcher: Task 10 running job 11 on compute-7-2-21 (bash run2_10.qsub)
+Launcher: Task 11 running job 12 on compute-7-2-21 (bash run2_11.qsub)
+run2_0.qsub: line 14: cd: /home/bkg230000/AFAI_vs_Haldane/build/long_02_test: No such file or directory
+run2_1.qsub: line 14: cd: /home/bkg230000/AFAI_vs_Haldane/build/long_02_test: No such file or directory
+run2_4.qsub: line 14: cd: /home/bkg230000/AFAI_vs_Haldane/build/long_02_test: No such file or directory
+run2_9.qsub: line 14: cd: /home/bkg230000/AFAI_vs_Haldane/build/long_02_test: No such file or directory
+run2_2.qsub: line 14: cd: /home/bkg230000/AFAI_vs_Haldane/build/long_02_test: No such file or directory
+run2_5.qsub: line 14: cd: /home/bkg230000/AFAI_vs_Haldane/build/long_02_test: No such file or directory
+run2_3.qsub: line 14: cd: /home/bkg230000/AFAI_vs_Haldane/build/long_02_test: No such file or directory
+run2_7.qsub: line 14: cd: /home/bkg230000/AFAI_vs_Haldane/build/long_02_test: No such file or directory
+run2_14.qsub: line 14: cd: /home/bkg230000/AFAI_vs_Haldane/build/long_02_test: No such file or directory
+run2_8.qsub: line 14: cd: /home/bkg230000/AFAI_vs_Haldane/build/long_02_test: No such file or directory
+run2_6.qsub: line 14: cd: /home/bkg230000/AFAI_vs_Haldane/build/long_02_test: No such file or directory
+run2_15.qsub: line 14: cd: /home/bkg230000/AFAI_vs_Haldane/build/long_02_test: No such file or directory
+run2_13.qsub: line 14: cd: /home/bkg230000/AFAI_vs_Haldane/build/long_02_test: No such file or directory
+run2_12.qsub: line 14: cd: /home/bkg230000/AFAI_vs_Haldane/build/long_02_test: No such file or directory
+run2_11.qsub: line 14: cd: /home/bkg230000/AFAI_vs_Haldane/build/long_02_test: No such file or directory
+run2_10.qsub: line 14: cd: /home/bkg230000/AFAI_vs_Haldane/build/long_02_test: No such file or directory
+Launcher: Task 80 running job 81 on compute-7-3-14 (bash run2_80.qsub)
+Launcher: Task 88 running job 89 on compute-7-3-14 (bash run2_88.qsub)
+Launcher: Task 82 running job 83 on compute-7-3-14 (bash run2_82.qsub)
+Launcher: Task 92 running job 93 on compute-7-3-14 (bash run2_92.qsub)
+Launcher: Task 84 running job 85 on compute-7-3-14 (bash run2_84.qsub)
+Launcher: Task 85 running job 86 on compute-7-3-14 (bash run2_85.qsub)
+Launcher: Task 89 running job 90 on compute-7-3-14 (bash run2_89.qsub)
+Launcher: Task 95 running job 96 on compute-7-3-14 (bash run2_95.qsub)
+Launcher: Task 86 running job 87 on compute-7-3-14 (bash run2_86.qsub)
+Launcher: Task 93 running job 94 on compute-7-3-14 (bash run2_93.qsub)
+Launcher: Task 90 running job 91 on compute-7-3-14 (bash run2_90.qsub)
+Launcher: Task 87 running job 88 on compute-7-3-14 (bash run2_87.qsub)
+Launcher: Task 81 running job 82 on compute-7-3-14 (bash run2_81.qsub)
+Launcher: Task 83 running job 84 on compute-7-3-14 (bash run2_83.qsub)
+Launcher: Task 91 running job 92 on compute-7-3-14 (bash run2_91.qsub)
+Launcher: Task 94 running job 95 on compute-7-3-14 (bash run2_94.qsub)
+run2_92.qsub: line 14: cd: /home/bkg230000/AFAI_vs_Haldane/build/long_02_test: No such file or directory
+run2_83.qsub: line 14: cd: /home/bkg230000/AFAI_vs_Haldane/build/long_02_test: No such file or directory
+run2_80.qsub: line 14: cd: /home/bkg230000/AFAI_vs_Haldane/build/long_02_test: No such file or directory
+run2_82.qsub: line 14: cd: /home/bkg230000/AFAI_vs_Haldane/build/long_02_test: No such file or directory
+run2_95.qsub: line 14: cd: /home/bkg230000/AFAI_vs_Haldane/build/long_02_test: No such file or directory
+run2_90.qsub: line 14: cd: /home/bkg230000/AFAI_vs_Haldane/build/long_02_test: No such file or directory
+run2_81.qsub: line 14: cd: /home/bkg230000/AFAI_vs_Haldane/build/long_02_test: No such file or directory
+run2_93.qsub: line 14: cd: /home/bkg230000/AFAI_vs_Haldane/build/long_02_test: No such file or directory
+run2_84.qsub: line 14: cd: /home/bkg230000/AFAI_vs_Haldane/build/long_02_test: No such file or directory
+run2_85.qsub: line 14: cd: /home/bkg230000/AFAI_vs_Haldane/build/long_02_test: No such file or directory
+run2_87.qsub: line 14: cd: /home/bkg230000/AFAI_vs_Haldane/build/long_02_test: No such file or directory
+run2_86.qsub: line 14: cd: /home/bkg230000/AFAI_vs_Haldane/build/long_02_test: No such file or directory
+run2_89.qsub: line 14: cd: /home/bkg230000/AFAI_vs_Haldane/build/long_02_test: No such file or directory
+run2_94.qsub: line 14: cd: /home/bkg230000/AFAI_vs_Haldane/build/long_02_test: No such file or directory
+run2_88.qsub: line 14: cd: /home/bkg230000/AFAI_vs_Haldane/build/long_02_test: No such file or directory
+run2_91.qsub: line 14: cd: /home/bkg230000/AFAI_vs_Haldane/build/long_02_test: No such file or directory
+Launcher: Task 49 running job 50 on compute-7-2-26 (bash run2_49.qsub)
+Launcher: Task 48 running job 49 on compute-7-2-26 (bash run2_48.qsub)
+Launcher: Task 61 running job 62 on compute-7-2-26 (bash run2_61.qsub)
+Launcher: Task 62 running job 63 on compute-7-2-26 (bash run2_62.qsub)
+Launcher: Task 55 running job 56 on compute-7-2-26 (bash run2_55.qsub)
+Launcher: Task 56 running job 57 on compute-7-2-26 (bash run2_56.qsub)
+Launcher: Task 63 running job 64 on compute-7-2-26 (bash run2_63.qsub)
+Launcher: Task 59 running job 60 on compute-7-2-26 (bash run2_59.qsub)
+Launcher: Task 51 running job 52 on compute-7-2-26 (bash run2_51.qsub)
+Launcher: Task 53 running job 54 on compute-7-2-26 (bash run2_53.qsub)
+Launcher: Task 50 running job 51 on compute-7-2-26 (bash run2_50.qsub)
+Launcher: Task 54 running job 55 on compute-7-2-26 (bash run2_54.qsub)
+Launcher: Task 52 running job 53 on compute-7-2-26 (bash run2_52.qsub)
+Launcher: Task 60 running job 61 on compute-7-2-26 (bash run2_60.qsub)
+Launcher: Task 57 running job 58 on compute-7-2-26 (bash run2_57.qsub)
+Launcher: Task 58 running job 59 on compute-7-2-26 (bash run2_58.qsub)
+run2_62.qsub: line 14: cd: /home/bkg230000/AFAI_vs_Haldane/build/long_02_test: No such file or directory
+run2_55.qsub: line 14: cd: /home/bkg230000/AFAI_vs_Haldane/build/long_02_test: No such file or directory
+run2_59.qsub: line 14: cd: /home/bkg230000/AFAI_vs_Haldane/build/long_02_test: No such file or directory
+run2_49.qsub: line 14: cd: /home/bkg230000/AFAI_vs_Haldane/build/long_02_test: No such file or directory
+run2_61.qsub: line 14: cd: /home/bkg230000/AFAI_vs_Haldane/build/long_02_test: No such file or directory
+run2_57.qsub: line 14: cd: /home/bkg230000/AFAI_vs_Haldane/build/long_02_test: No such file or directory
+run2_56.qsub: line 14: cd: /home/bkg230000/AFAI_vs_Haldane/build/long_02_test: No such file or directory
+run2_50.qsub: line 14: cd: /home/bkg230000/AFAI_vs_Haldane/build/long_02_test: No such file or directory
+run2_63.qsub: line 14: cd: /home/bkg230000/AFAI_vs_Haldane/build/long_02_test: No such file or directory
+run2_52.qsub: line 14: cd: /home/bkg230000/AFAI_vs_Haldane/build/long_02_test: No such file or directory
+run2_54.qsub: line 14: cd: /home/bkg230000/AFAI_vs_Haldane/build/long_02_test: No such file or directory
+run2_60.qsub: line 14: cd: /home/bkg230000/AFAI_vs_Haldane/build/long_02_test: No such file or directory
+run2_51.qsub: line 14: cd: /home/bkg230000/AFAI_vs_Haldane/build/long_02_test: No such file or directory
+Launcher: Task 43 running job 44 on compute-7-2-24 (bash run2_43.qsub)
+Launcher: Task 46 running job 47 on compute-7-2-24 (bash run2_46.qsub)
+Launcher: Task 40 running job 41 on compute-7-2-24 (bash run2_40.qsub)
+Launcher: Task 37 running job 38 on compute-7-2-24 (bash run2_37.qsub)
+Launcher: Task 36 running job 37 on compute-7-2-24 (bash run2_36.qsub)
+Launcher: Task 39 running job 40 on compute-7-2-24 (bash run2_39.qsub)
+Launcher: Task 47 running job 48 on compute-7-2-24 (bash run2_47.qsub)
+Launcher: Task 45 running job 46 on compute-7-2-24 (bash run2_45.qsub)
+Launcher: Task 35 running job 36 on compute-7-2-24 (bash run2_35.qsub)
+Launcher: Task 32 running job 33 on compute-7-2-24 (bash run2_32.qsub)
+Launcher: Task 33 running job 34 on compute-7-2-24 (bash run2_33.qsub)
+Launcher: Task 41 running job 42 on compute-7-2-24 (bash run2_41.qsub)
+Launcher: Task 38 running job 39 on compute-7-2-24 (bash run2_38.qsub)
+Launcher: Task 42 running job 43 on compute-7-2-24 (bash run2_42.qsub)
+run2_48.qsub: line 14: cd: /home/bkg230000/AFAI_vs_Haldane/build/long_02_test: No such file or directory
+run2_58.qsub: line 14: cd: /home/bkg230000/AFAI_vs_Haldane/build/long_02_test: No such file or directory
+run2_53.qsub: line 14: cd: /home/bkg230000/AFAI_vs_Haldane/build/long_02_test: No such file or directory
+Launcher: Task 34 running job 35 on compute-7-2-24 (bash run2_34.qsub)
+Launcher: Task 44 running job 45 on compute-7-2-24 (bash run2_44.qsub)
+Launcher: Task 28 running job 29 on compute-7-2-23 (bash run2_28.qsub)
+Launcher: Task 24 running job 25 on compute-7-2-23 (bash run2_24.qsub)
+Launcher: Task 20 running job 21 on compute-7-2-23 (bash run2_20.qsub)
+Launcher: Task 27 running job 28 on compute-7-2-23 (bash run2_27.qsub)
+Launcher: Task 16 running job 17 on compute-7-2-23 (bash run2_16.qsub)
+Launcher: Task 22 running job 23 on compute-7-2-23 (bash run2_22.qsub)
+Launcher: Task 18 running job 19 on compute-7-2-23 (bash run2_18.qsub)
+Launcher: Task 26 running job 27 on compute-7-2-23 (bash run2_26.qsub)
+Launcher: Task 23 running job 24 on compute-7-2-23 (bash run2_23.qsub)
+Launcher: Task 30 running job 31 on compute-7-2-23 (bash run2_30.qsub)
+Launcher: Task 21 running job 22 on compute-7-2-23 (bash run2_21.qsub)
+Launcher: Task 29 running job 30 on compute-7-2-23 (bash run2_29.qsub)
+Launcher: Task 19 running job 20 on compute-7-2-23 (bash run2_19.qsub)
+Launcher: Task 25 running job 26 on compute-7-2-23 (bash run2_25.qsub)
+Launcher: Task 31 running job 32 on compute-7-2-23 (bash run2_31.qsub)
+Launcher: Task 17 running job 18 on compute-7-2-23 (bash run2_17.qsub)
+run2_38.qsub: line 14: cd: /home/bkg230000/AFAI_vs_Haldane/build/long_02_test: No such file or directory
+run2_44.qsub: line 14: cd: /home/bkg230000/AFAI_vs_Haldane/build/long_02_test: No such file or directory
+run2_37.qsub: line 14: cd: /home/bkg230000/AFAI_vs_Haldane/build/long_02_test: No such file or directory
+run2_39.qsub: line 14: cd: /home/bkg230000/AFAI_vs_Haldane/build/long_02_test: No such file or directory
+run2_36.qsub: line 14: cd: /home/bkg230000/AFAI_vs_Haldane/build/long_02_test: No such file or directory
+run2_34.qsub: line 14: cd: /home/bkg230000/AFAI_vs_Haldane/build/long_02_test: No such file or directory
+run2_46.qsub: line 14: cd: /home/bkg230000/AFAI_vs_Haldane/build/long_02_test: No such file or directory
+run2_41.qsub: line 14: cd: /home/bkg230000/AFAI_vs_Haldane/build/long_02_test: No such file or directory
+run2_35.qsub: line 14: cd: /home/bkg230000/AFAI_vs_Haldane/build/long_02_test: No such file or directory
+run2_33.qsub: line 14: cd: /home/bkg230000/AFAI_vs_Haldane/build/long_02_test: No such file or directory
+run2_47.qsub: line 14: cd: /home/bkg230000/AFAI_vs_Haldane/build/long_02_test: No such file or directory
+run2_32.qsub: line 14: cd: /home/bkg230000/AFAI_vs_Haldane/build/long_02_test: No such file or directory
+run2_45.qsub: line 14: cd: /home/bkg230000/AFAI_vs_Haldane/build/long_02_test: No such file or directory
+run2_43.qsub: line 14: cd: /home/bkg230000/AFAI_vs_Haldane/build/long_02_test: No such file or directory
+Launcher: Task 76 running job 77 on compute-7-2-27 (bash run2_76.qsub)
+Launcher: Task 67 running job 68 on compute-7-2-27 (bash run2_67.qsub)
+Launcher: Task 70 running job 71 on compute-7-2-27 (bash run2_70.qsub)
+Launcher: Task 69 running job 70 on compute-7-2-27 (bash run2_69.qsub)
+Launcher: Task 79 running job 80 on compute-7-2-27 (bash run2_79.qsub)
+Launcher: Task 68 running job 69 on compute-7-2-27 (bash run2_68.qsub)
+Launcher: Task 66 running job 67 on compute-7-2-27 (bash run2_66.qsub)
+Launcher: Task 74 running job 75 on compute-7-2-27 (bash run2_74.qsub)
+Launcher: Task 71 running job 72 on compute-7-2-27 (bash run2_71.qsub)
+Launcher: Task 73 running job 74 on compute-7-2-27 (bash run2_73.qsub)
+Launcher: Task 65 running job 66 on compute-7-2-27 (bash run2_65.qsub)
+run2_42.qsub: line 14: cd: /home/bkg230000/AFAI_vs_Haldane/build/long_02_test: No such file or directory
+Launcher: Task 78 running job 79 on compute-7-2-27 (bash run2_78.qsub)
+Launcher: Task 72 running job 73 on compute-7-2-27 (bash run2_72.qsub)
+Launcher: Task 77 running job 78 on compute-7-2-27 (bash run2_77.qsub)
+Launcher: Task 64 running job 65 on compute-7-2-27 (bash run2_64.qsub)
+Launcher: Task 75 running job 76 on compute-7-2-27 (bash run2_75.qsub)
+run2_40.qsub: line 14: cd: /home/bkg230000/AFAI_vs_Haldane/build/long_02_test: No such file or directory
+run2_16.qsub: line 14: cd: /home/bkg230000/AFAI_vs_Haldane/build/long_02_test: No such file or directory
+run2_28.qsub: line 14: cd: /home/bkg230000/AFAI_vs_Haldane/build/long_02_test: No such file or directory
+run2_19.qsub: line 14: cd: /home/bkg230000/AFAI_vs_Haldane/build/long_02_test: No such file or directory
+run2_30.qsub: line 14: cd: /home/bkg230000/AFAI_vs_Haldane/build/long_02_test: No such file or directory
+run2_31.qsub: line 14: cd: /home/bkg230000/AFAI_vs_Haldane/build/long_02_test: No such file or directory
+run2_18.qsub: line 14: cd: /home/bkg230000/AFAI_vs_Haldane/build/long_02_test: No such file or directory
+run2_29.qsub: line 14: cd: /home/bkg230000/AFAI_vs_Haldane/build/long_02_test: No such file or directory
+run2_25.qsub: line 14: cd: /home/bkg230000/AFAI_vs_Haldane/build/long_02_test: No such file or directory
+run2_17.qsub: line 14: cd: /home/bkg230000/AFAI_vs_Haldane/build/long_02_test: No such file or directory
+run2_23.qsub: line 14: cd: /home/bkg230000/AFAI_vs_Haldane/build/long_02_test: No such file or directory
+run2_26.qsub: line 14: cd: /home/bkg230000/AFAI_vs_Haldane/build/long_02_test: No such file or directory
+run2_24.qsub: line 14: cd: /home/bkg230000/AFAI_vs_Haldane/build/long_02_test: No such file or directory
+run2_27.qsub: line 14: cd: /home/bkg230000/AFAI_vs_Haldane/build/long_02_test: No such file or directory
+run2_21.qsub: line 14: cd: /home/bkg230000/AFAI_vs_Haldane/build/long_02_test: No such file or directory
+run2_20.qsub: line 14: cd: /home/bkg230000/AFAI_vs_Haldane/build/long_02_test: No such file or directory
+run2_22.qsub: line 14: cd: /home/bkg230000/AFAI_vs_Haldane/build/long_02_test: No such file or directory
+run2_78.qsub: line 14: cd: /home/bkg230000/AFAI_vs_Haldane/build/long_02_test: No such file or directory
+run2_71.qsub: line 14: cd: /home/bkg230000/AFAI_vs_Haldane/build/long_02_test: No such file or directory
+run2_67.qsub: line 14: cd: /home/bkg230000/AFAI_vs_Haldane/build/long_02_test: No such file or directory
+run2_76.qsub: line 14: cd: /home/bkg230000/AFAI_vs_Haldane/build/long_02_test: No such file or directory
+run2_70.qsub: line 14: cd: /home/bkg230000/AFAI_vs_Haldane/build/long_02_test: No such file or directory
+run2_64.qsub: line 14: cd: /home/bkg230000/AFAI_vs_Haldane/build/long_02_test: No such file or directory
+run2_72.qsub: line 14: cd: /home/bkg230000/AFAI_vs_Haldane/build/long_02_test: No such file or directory
+run2_75.qsub: line 14: cd: /home/bkg230000/AFAI_vs_Haldane/build/long_02_test: No such file or directory
+run2_73.qsub: line 14: cd: /home/bkg230000/AFAI_vs_Haldane/build/long_02_test: No such file or directory
+run2_66.qsub: line 14: cd: /home/bkg230000/AFAI_vs_Haldane/build/long_02_test: No such file or directory
+run2_79.qsub: line 14: cd: /home/bkg230000/AFAI_vs_Haldane/build/long_02_test: No such file or directory
+run2_65.qsub: line 14: cd: /home/bkg230000/AFAI_vs_Haldane/build/long_02_test: No such file or directory
+run2_69.qsub: line 14: cd: /home/bkg230000/AFAI_vs_Haldane/build/long_02_test: No such file or directory
+run2_68.qsub: line 14: cd: /home/bkg230000/AFAI_vs_Haldane/build/long_02_test: No such file or directory
+run2_74.qsub: line 14: cd: /home/bkg230000/AFAI_vs_Haldane/build/long_02_test: No such file or directory
+run2_77.qsub: line 14: cd: /home/bkg230000/AFAI_vs_Haldane/build/long_02_test: No such file or directory
+slurmstepd: error: *** JOB 692737 ON compute-7-2-21 CANCELLED AT 2024-10-16T13:24:50 ***
+Killed by signal 15.
+Killed by signal 15.
+Killed by signal 15.
+Killed by signal 15.
+Killed by signal 15.
+Killed by signal 15.

@@ -1,14 +1,14 @@
 #!/usr/bin/bash
 # Template for ".qsub" files that will be run as batch files by slurm
 
-RUN_NAME=Hal_750_time_02
+RUN_NAME=run2
 PROJECT_NAME=AFAI_vs_Haldane
-SCRATCH_DIR=$SCRATCH/$RUN_NAME/b0
+SCRATCH_DIR=$SCRATCH/$RUN_NAME/b96
 LOCAL_DIR=$HOME/$PROJECT_NAME/build
 
 mkdir -p $SCRATCH_DIR
 
-EXEC=LE_Hal_long_time.py
+EXEC=LE_ANa_long_time.py
 HELPER=""
 
 cd $LOCAL_DIR/$RUN_NAME
@@ -19,7 +19,7 @@ then
 fi
 cd $SCRATCH_DIR/
 
-{ time python ./$EXEC 0; } > temp.out 2> error.err
+{ time python ./$EXEC 96; } > temp.out 2> error.err
 
 if [ "$(pwd)" == $SCRATCH_DIR ]; then
     echo "Removing files"
