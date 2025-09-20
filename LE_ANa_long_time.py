@@ -1,6 +1,4 @@
 # %%
-import sys
-import os
 import numpy as np
 import numpy.linalg
 import scipy as sp  
@@ -119,14 +117,11 @@ def U(n, Lx, T, ky,noise):
     (E3,V3)=np.linalg.eigh(H3)
 
 
-<<<<<<< HEAD
-U_m = (V3 @ np.diag(np.exp(-1j*E3*(T/3 + noise[0][0]))) @ V3.conj().T) @ (V2 @ np.diag(np.exp(-1j*E2*(T/3 + noise[0][1]))) @ V2.conj().T) @ (V1 @ np.diag(np.exp(-1j*E1*(T/3 + noise[0][2]))) @ V1.conj().T)
-=======
-    U_m = (V3 @ np.diag(np.exp(-1j*E3*(T/3 + noise[0][0]))) @ V3.conj().T) @ (V2 @ np.diag(np.exp(-1j*E2*(T/3 + noise[0][1]))) @ V2.conj().T) @ (V1 @ np.diag(np.exp(-1j*E1*(T/3 + noise[0][2]))) @ V1.conj().T)
->>>>>>> 081f74a5b10d4af33e5eb3b92ab0cfeaacb20023
+    U_m = (V3 @ np.diag(np.exp(-1j*E3*(T*(1 + noise[0][0])/3))) @ V3.conj().T) @ (V2 @ np.diag(np.exp(-1j*E2*(T*(1 + noise[0][1])/3))) @ V2.conj().T) @ (V1 @ np.diag(np.exp(-1j*E1*(T*(1 + noise[0][2])/3))) @ V1.conj().T)
     #fix the loop such that the ky must be same.
     return U_m
 
+# %%
 def adjoint(psi):
     return psi.conjugate().transpose()
 def psi_to_rho(psi):
@@ -187,8 +182,7 @@ Ly = 52        # Number of lattice sites along the y direction
 J = 1       # Hopping coefficient 
 Jprime =0.10      # Number of lattice sites along the y direction
 T_A  = 3*np.pi/2 
-WNoiseinit = 0.0
-W = WNoiseinit
+W = 0.0
 omegaA = (2*np.pi)/T_A 
 
 # %%
@@ -239,11 +233,11 @@ print(np.abs(np.transpose(eigenfunctionsA[99])[:][26]))
 # %%
 #plt.imshow(np.abs(eigenfunctionsA[99]))
 init_wave = np.transpose(eigenfunctionsA[99])[:][500]
-#plt.plot(np.arange(52),np.abs(np.transpose(eigenfunctionsA[99])[:][500]), label = 'ky = 0')
-#plt.title(label = 'Edge state for ky ~ ${0}$ post evolution ' )
-#plt.xlabel('$x$')
-#plt.ylabel('Probability Density')
-#plt.show()
+plt.plot(np.arange(52),np.abs(np.transpose(eigenfunctionsA[99])[:][500]), label = 'ky = 0')
+plt.title(label = 'Edge state for ky ~ ${0}$ post evolution ' )
+plt.xlabel('$x$')
+plt.ylabel('Probability Density')
+plt.show()
 
 # %%
 n =250   # Number of unit lattices 
@@ -251,62 +245,151 @@ Lx = 4*n        # Number of lattice sites along the x direction
 Ly = 52
 J = 1       # Hopping coefficient 
 Jprime =0.10        # Hopping coefficent 
-m = 1000      # Multiples of T
-noise_lst = [0.2]*96
-
-np.save("noise_lst.npy", noise_lst)
-noise_index = int(sys.argv[1])
-
-W = noise_lst[noise_index]  # In kHz units.
-np.save("source_bias.npy", W)  # Noise strength
+m = 50      # Multiples of T
+W = 0.2   # Noise strength
 # Variables for anomalous 
 T_A  = 3*np.pi/2         # Driving period 
 t_A = np.arange(0 ,m*T_A, T_A)      # Mutlples of driving period for 
 omegaA = (2*np.pi)/T_A 
 
-def lochsgmidt_echo(final_vector,initial_vecotr):
-    final_vecto = final_vector/((np.linalg.norm(final_vector)))
-    initial_vecot = initial_vecotr/((np.linalg.norm(initial_vecotr)))
-    rate = np.conjugate(final_vecto)@initial_vecot
-    return np.abs(rate)
-
 # %%
 def propagate(W):
-    W_0_21 = []
     ky_list = np.linspace(-np.pi, np.pi, 100)
     GA = np.zeros((len(t_A), Lx, Lx), dtype = complex)
+    ky = 3
     for step in range(0, len(t_A)):
         random = np.random.uniform(-W,W,(1,3))
         if step == 0:
             GA[step,:,:] = U(n, Lx, T_A, ky_list[99],random)
-            final_waves = (init_wave)
-            W_0_21.append(lochsgmidt_echo(final_waves, init_wave))
         else:
             GA[step,:,:] = U(n, Lx,  (t_A[step] - t_A[step-1]), ky_list[99],random) @ GA[step - 1,:,:]
-            final_waves = (GA[step,:,:]@init_wave)
-            W_0_21.append(lochsgmidt_echo(final_waves, init_wave))
-    return W_0_21
+    return GA
 
-
-# %%
-average_echo = propagate(W)
-
-# %%
-
-# %%
-np.savetxt("LE_Ana_02_edit_small.txt",average_echo)
 
 # %%
 
 
 # %%
-#plt.plot(np.arange(len(t_A)),average)
+def time_evolv(initial_wave):
+    GA = propagate(W)
+    final_waves = []
+    for step in range(0, len(t_A)):
+        if step == 0:
+            final_waves.append(initial_wave)
+        else:
+            final_waves.append(GA[step,:,:]@initial_wave)
+    return final_waves
 
 # %%
-#plt.plot(np.arange(len(t_A)),average)
+final= []
+for i in range(10):
+    final.append(time_evolv(init_wave))
+#finale = time_evolv(init_wave)
+for j in range(10):
+    for i in range(0,len(t_A)):
+        plt.plot(np.arange(52),np.abs(final[j][i]), label = 'ky = 0')
+    plt.show()
 
 # %%
-#plt.plot(np.arange(len(t_A)),average)
+def lochsgmidt_echo(final_vector,initial_vecotr):
+    final_vecto = final_vector/((np.linalg.norm(final_vector)))
+    initial_vecot = initial_vecotr/((np.linalg.norm(initial_vecotr)))
+    rate = final_vecto@initial_vecot
+    return np.abs(rate)
 
 # %%
+W_0_21 = []
+for i in range(0,len(t_A)):
+    finale = final[0]
+    W_0_21.append(lochsgmidt_echo(finale[i], init_wave))
+
+# %%
+W_0_22 = []
+for i in range(0,len(t_A)):
+    finale = final[1]
+    W_0_22.append(lochsgmidt_echo(finale[i], init_wave))
+
+# %%
+W_0_23 = []
+for i in range(0,len(t_A)):
+    finale = final[2]
+    W_0_23.append(lochsgmidt_echo(finale[i], init_wave))
+
+# %%
+W_0_24 = []
+for i in range(0,len(t_A)):
+    finale = final[3]
+    W_0_24.append(lochsgmidt_echo(finale[i], init_wave))
+
+# %%
+W_0_25 = []
+for i in range(0,len(t_A)):
+    finale = final[4]
+    W_0_25.append(lochsgmidt_echo(finale[i], init_wave))
+
+# %%
+W_0_26 = []
+for i in range(0,len(t_A)):
+    finale = final[5]
+    W_0_26.append(lochsgmidt_echo(finale[i], init_wave))
+
+# %%
+W_0_27 = []
+for i in range(0,len(t_A)):
+    finale = final[6]
+    W_0_27.append(lochsgmidt_echo(finale[i], init_wave))
+
+# %%
+W_0_28 = []
+for i in range(0,len(t_A)):
+    finale = final[7]
+    W_0_28.append(lochsgmidt_echo(finale[i], init_wave))
+
+# %%
+W_0_29 = []
+for i in range(0,len(t_A)):
+    finale = final[8]
+    W_0_29.append(lochsgmidt_echo(finale[i], init_wave))
+
+# %%
+W_0_210 = []
+for i in range(0,len(t_A)):
+    finale = final[9]
+    W_0_210.append(lochsgmidt_echo(finale[i], init_wave))
+
+# %%
+arrays = np.array([W_0_210, W_0_29, W_0_28, W_0_27,W_0_26, W_0_25, W_0_24, W_0_23, W_0_22, W_0_21])
+
+# %%
+plt.plot(np.arange(len(t_A)),W_0_29)
+
+# %%
+average = np.mean(arrays,axis = 0)
+
+# %%
+err_bar = (np.std(arrays,axis = 0))
+err_bar = err_bar/np.sqrt(len(err_bar))
+
+# %%
+plt.errorbar(np.arange(len(t_A)),average, yerr = err_bar)
+plt.savefig("LE_Ana.png", dpi=600)
+
+# %%
+np.savetxt("LE_Ana_00.txt",average)
+np.savetxt("LE_Ana_00_err.txt", err_bar)
+
+# %%
+
+
+# %%
+plt.plot(np.arange(len(t_A)),average)
+
+# %%
+plt.plot(np.arange(len(t_A)),average)
+
+# %%
+plt.plot(np.arange(len(t_A)),average)
+
+# %%
+
 
